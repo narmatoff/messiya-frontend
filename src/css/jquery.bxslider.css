@@ -5,6 +5,7 @@
 .bx-wrapper {
   position: relative;
   padding: 0;
+  *
   zoom: 1;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
@@ -75,9 +76,9 @@ ul.bxslider {
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
   display: inline-block;
   vertical-align: top;
-  
+  *
   zoom: 1;
-  
+  *
   display: inline;
   margin: 0 4px;
   text-align: center;

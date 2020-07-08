@@ -441,6 +441,17 @@
 		"oAP": "\/build\/fonts\/rzipsgcg-webfont.woff2",
 		"oF": 0
 		},
+	"\/build\/images\/add_ucha.png": {
+		"ft": 32768,
+		"iS": 1797,
+		"oA": 0,
+		"oAP": "\/build\/images\/add_ucha.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/images\/bl_login.png": {
 		"ft": 32768,
 		"iS": 245,
@@ -485,11 +496,77 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/build\/images\/block_obuch.jpg": {
+		"ft": 16384,
+		"iS": 78206,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/images\/block_obuch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/build\/images\/block_vnutr.png": {
+		"ft": 32768,
+		"iS": 403456,
+		"oA": 0,
+		"oAP": "\/build\/images\/block_vnutr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/block_vnutr2.png": {
+		"ft": 32768,
+		"iS": 224095,
+		"oA": 0,
+		"oAP": "\/build\/images\/block_vnutr2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/images\/close.png": {
 		"ft": 32768,
 		"iS": 271,
 		"oA": 0,
 		"oAP": "\/build\/images\/close.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/comm.png": {
+		"ft": 32768,
+		"iS": 709,
+		"oA": 0,
+		"oAP": "\/build\/images\/comm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/del.png": {
+		"ft": 32768,
+		"iS": 598,
+		"oA": 0,
+		"oAP": "\/build\/images\/del.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/ekzamen.png": {
+		"ft": 32768,
+		"iS": 44416,
+		"oA": 0,
+		"oAP": "\/build\/images\/ekzamen.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -518,11 +595,187 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/build\/images\/footer.png": {
+		"ft": 32768,
+		"iS": 225302,
+		"oA": 0,
+		"oAP": "\/build\/images\/footer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/har1.png": {
+		"ft": 32768,
+		"iS": 483,
+		"oA": 0,
+		"oAP": "\/build\/images\/har1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/har21.png": {
+		"ft": 32768,
+		"iS": 322,
+		"oA": 0,
+		"oAP": "\/build\/images\/har21.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/har22.png": {
+		"ft": 32768,
+		"iS": 441,
+		"oA": 0,
+		"oAP": "\/build\/images\/har22.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/har3.png": {
+		"ft": 32768,
+		"iS": 488,
+		"oA": 0,
+		"oAP": "\/build\/images\/har3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/har31.png": {
+		"ft": 32768,
+		"iS": 488,
+		"oA": 0,
+		"oAP": "\/build\/images\/har31.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/har4.png": {
+		"ft": 32768,
+		"iS": 516,
+		"oA": 0,
+		"oAP": "\/build\/images\/har4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/har41.png": {
+		"ft": 32768,
+		"iS": 517,
+		"oA": 0,
+		"oAP": "\/build\/images\/har41.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/in1.png": {
+		"ft": 32768,
+		"iS": 483,
+		"oA": 0,
+		"oAP": "\/build\/images\/in1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/in2.png": {
+		"ft": 32768,
+		"iS": 322,
+		"oA": 0,
+		"oAP": "\/build\/images\/in2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/in3.png": {
+		"ft": 32768,
+		"iS": 488,
+		"oA": 0,
+		"oAP": "\/build\/images\/in3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/izbr.png": {
+		"ft": 32768,
+		"iS": 913,
+		"oA": 0,
+		"oAP": "\/build\/images\/izbr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/izbr2.png": {
+		"ft": 32768,
+		"iS": 908,
+		"oA": 0,
+		"oAP": "\/build\/images\/izbr2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/kurs1.png": {
+		"ft": 32768,
+		"iS": 85505,
+		"oA": 0,
+		"oAP": "\/build\/images\/kurs1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/kurs2.png": {
+		"ft": 32768,
+		"iS": 51509,
+		"oA": 0,
+		"oAP": "\/build\/images\/kurs2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/images\/like.png": {
 		"ft": 32768,
 		"iS": 577,
 		"oA": 0,
 		"oAP": "\/build\/images\/like.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/like2.png": {
+		"ft": 32768,
+		"iS": 453,
+		"oA": 0,
+		"oAP": "\/build\/images\/like2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -573,6 +826,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/build\/images\/more.png": {
+		"ft": 32768,
+		"iS": 455,
+		"oA": 0,
+		"oAP": "\/build\/images\/more.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/net_kursa.png": {
+		"ft": 32768,
+		"iS": 6312,
+		"oA": 0,
+		"oAP": "\/build\/images\/net_kursa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/nlo.png": {
+		"ft": 32768,
+		"iS": 3891,
+		"oA": 0,
+		"oAP": "\/build\/images\/nlo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/novoe.png": {
+		"ft": 32768,
+		"iS": 5227,
+		"oA": 0,
+		"oAP": "\/build\/images\/novoe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/obsu.jpg": {
+		"ft": 16384,
+		"iS": 43361,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/images\/obsu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/build\/images\/okno.png": {
 		"ft": 32768,
 		"iS": 48123,
@@ -617,11 +925,99 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/build\/images\/open.png": {
+		"ft": 32768,
+		"iS": 465,
+		"oA": 0,
+		"oAP": "\/build\/images\/open.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/open2.png": {
+		"ft": 32768,
+		"iS": 512,
+		"oA": 0,
+		"oAP": "\/build\/images\/open2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/openn.png": {
+		"ft": 32768,
+		"iS": 512,
+		"oA": 0,
+		"oAP": "\/build\/images\/openn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/images\/parent.png": {
 		"ft": 32768,
 		"iS": 245,
 		"oA": 0,
 		"oAP": "\/build\/images\/parent.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/razv.png": {
+		"ft": 32768,
+		"iS": 502,
+		"oA": 0,
+		"oAP": "\/build\/images\/razv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/sbros.png": {
+		"ft": 32768,
+		"iS": 336,
+		"oA": 0,
+		"oAP": "\/build\/images\/sbros.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/soc1.png": {
+		"ft": 32768,
+		"iS": 726,
+		"oA": 0,
+		"oAP": "\/build\/images\/soc1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/soc2.png": {
+		"ft": 32768,
+		"iS": 368,
+		"oA": 0,
+		"oAP": "\/build\/images\/soc2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/soc3.png": {
+		"ft": 32768,
+		"iS": 697,
+		"oA": 0,
+		"oAP": "\/build\/images\/soc3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -644,6 +1040,17 @@
 		"iS": 551,
 		"oA": 0,
 		"oAP": "\/build\/images\/soob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/images\/strel.png": {
+		"ft": 32768,
+		"iS": 1567,
+		"oA": 0,
+		"oAP": "\/build\/images\/strel.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -716,6 +1123,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/build\/images\/zanyatie.png": {
+		"ft": 32768,
+		"iS": 9585,
+		"oA": 0,
+		"oAP": "\/build\/images\/zanyatie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -760,19 +1178,65 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/build\/kurs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/kurs.html",
+		"oF": 0
+		},
+	"\/build\/kurs_ekzamen.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/kurs_ekzamen.html",
+		"oF": 0
+		},
+	"\/build\/obuchenie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/obuchenie.html",
+		"oF": 0
+		},
+	"\/build\/obuchenie_net.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/obuchenie_net.html",
+		"oF": 0
+		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/src\/css\/jquery.bxslider.css": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/build\/css\/jquery.bxslider.css",
 		"oF": 3,
-		"oS": 2
+		"oS": 3
 		},
 	"\/src\/css\/style.css": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
@@ -1192,6 +1656,17 @@
 		"oAP": "\/build\/fonts\/rzipsgcg-webfont.woff2",
 		"oF": 2
 		},
+	"\/src\/images\/add_ucha.png": {
+		"ft": 32768,
+		"iS": 6475,
+		"oA": 0,
+		"oAP": "\/build\/images\/add_ucha.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/images\/bl_login.png": {
 		"ft": 32768,
 		"iS": 5207,
@@ -1236,11 +1711,77 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/src\/images\/block_obuch.jpg": {
+		"ft": 16384,
+		"iS": 263099,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/images\/block_obuch.jpg",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/images\/block_vnutr.png": {
+		"ft": 32768,
+		"iS": 1005050,
+		"oA": 0,
+		"oAP": "\/build\/images\/block_vnutr.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/block_vnutr2.png": {
+		"ft": 32768,
+		"iS": 713293,
+		"oA": 0,
+		"oAP": "\/build\/images\/block_vnutr2.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/images\/close.png": {
 		"ft": 32768,
 		"iS": 2175,
 		"oA": 0,
 		"oAP": "\/build\/images\/close.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/comm.png": {
+		"ft": 32768,
+		"iS": 5444,
+		"oA": 0,
+		"oAP": "\/build\/images\/comm.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/del.png": {
+		"ft": 32768,
+		"iS": 5420,
+		"oA": 0,
+		"oAP": "\/build\/images\/del.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/ekzamen.png": {
+		"ft": 32768,
+		"iS": 79869,
+		"oA": 0,
+		"oAP": "\/build\/images\/ekzamen.png",
 		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
@@ -1269,11 +1810,187 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/images\/footer.png": {
+		"ft": 32768,
+		"iS": 314148,
+		"oA": 0,
+		"oAP": "\/build\/images\/footer.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/har1.png": {
+		"ft": 32768,
+		"iS": 5332,
+		"oA": 0,
+		"oAP": "\/build\/images\/har1.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/har21.png": {
+		"ft": 32768,
+		"iS": 5257,
+		"oA": 0,
+		"oAP": "\/build\/images\/har21.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/har22.png": {
+		"ft": 32768,
+		"iS": 5364,
+		"oA": 0,
+		"oAP": "\/build\/images\/har22.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/har3.png": {
+		"ft": 32768,
+		"iS": 5347,
+		"oA": 0,
+		"oAP": "\/build\/images\/har3.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/har31.png": {
+		"ft": 32768,
+		"iS": 5346,
+		"oA": 0,
+		"oAP": "\/build\/images\/har31.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/har4.png": {
+		"ft": 32768,
+		"iS": 5366,
+		"oA": 0,
+		"oAP": "\/build\/images\/har4.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/har41.png": {
+		"ft": 32768,
+		"iS": 5362,
+		"oA": 0,
+		"oAP": "\/build\/images\/har41.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/in1.png": {
+		"ft": 32768,
+		"iS": 5332,
+		"oA": 0,
+		"oAP": "\/build\/images\/in1.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/in2.png": {
+		"ft": 32768,
+		"iS": 5257,
+		"oA": 0,
+		"oAP": "\/build\/images\/in2.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/in3.png": {
+		"ft": 32768,
+		"iS": 5347,
+		"oA": 0,
+		"oAP": "\/build\/images\/in3.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/izbr.png": {
+		"ft": 32768,
+		"iS": 5598,
+		"oA": 0,
+		"oAP": "\/build\/images\/izbr.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/izbr2.png": {
+		"ft": 32768,
+		"iS": 5599,
+		"oA": 0,
+		"oAP": "\/build\/images\/izbr2.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/kurs1.png": {
+		"ft": 32768,
+		"iS": 192270,
+		"oA": 0,
+		"oAP": "\/build\/images\/kurs1.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/kurs2.png": {
+		"ft": 32768,
+		"iS": 102770,
+		"oA": 0,
+		"oAP": "\/build\/images\/kurs2.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/images\/like.png": {
 		"ft": 32768,
 		"iS": 5458,
 		"oA": 0,
 		"oAP": "\/build\/images\/like.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/like2.png": {
+		"ft": 32768,
+		"iS": 5317,
+		"oA": 0,
+		"oAP": "\/build\/images\/like2.png",
 		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
@@ -1324,6 +2041,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/images\/more.png": {
+		"ft": 32768,
+		"iS": 5325,
+		"oA": 0,
+		"oAP": "\/build\/images\/more.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/net_kursa.png": {
+		"ft": 32768,
+		"iS": 15021,
+		"oA": 0,
+		"oAP": "\/build\/images\/net_kursa.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/nlo.png": {
+		"ft": 32768,
+		"iS": 9872,
+		"oA": 0,
+		"oAP": "\/build\/images\/nlo.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/novoe.png": {
+		"ft": 32768,
+		"iS": 11118,
+		"oA": 0,
+		"oAP": "\/build\/images\/novoe.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/obsu.jpg": {
+		"ft": 16384,
+		"iS": 147019,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/images\/obsu.jpg",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/images\/okno.png": {
 		"ft": 32768,
 		"iS": 143685,
@@ -1368,11 +2140,99 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/images\/open.png": {
+		"ft": 32768,
+		"iS": 5329,
+		"oA": 0,
+		"oAP": "\/build\/images\/open.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/open2.png": {
+		"ft": 32768,
+		"iS": 5335,
+		"oA": 0,
+		"oAP": "\/build\/images\/open2.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/openn.png": {
+		"ft": 32768,
+		"iS": 5335,
+		"oA": 0,
+		"oAP": "\/build\/images\/openn.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/images\/parent.png": {
 		"ft": 32768,
 		"iS": 5207,
 		"oA": 0,
 		"oAP": "\/build\/images\/parent.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/razv.png": {
+		"ft": 32768,
+		"iS": 5349,
+		"oA": 0,
+		"oAP": "\/build\/images\/razv.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/sbros.png": {
+		"ft": 32768,
+		"iS": 5306,
+		"oA": 0,
+		"oAP": "\/build\/images\/sbros.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/soc1.png": {
+		"ft": 32768,
+		"iS": 5477,
+		"oA": 0,
+		"oAP": "\/build\/images\/soc1.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/soc2.png": {
+		"ft": 32768,
+		"iS": 5267,
+		"oA": 0,
+		"oAP": "\/build\/images\/soc2.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/soc3.png": {
+		"ft": 32768,
+		"iS": 5486,
+		"oA": 0,
+		"oAP": "\/build\/images\/soc3.png",
 		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
@@ -1395,6 +2255,17 @@
 		"iS": 5120,
 		"oA": 0,
 		"oAP": "\/build\/images\/soob.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/strel.png": {
+		"ft": 32768,
+		"iS": 6632,
+		"oA": 0,
+		"oAP": "\/build\/images\/strel.png",
 		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
@@ -1467,6 +2338,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/images\/zanyatie.png": {
+		"ft": 32768,
+		"iS": 21813,
+		"oA": 0,
+		"oAP": "\/build\/images\/zanyatie.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1499,7 +2381,35 @@
 		"oAP": "\/build\/js\/scripts.js",
 		"oF": 3,
 		"sC": 0,
-		"tS": 0
+		"tS": 1
+		},
+	"\/src\/kurs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/kurs.html",
+		"oF": 2
+		},
+	"\/src\/kurs_ekzamen.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/kurs_ekzamen.html",
+		"oF": 2
+		},
+	"\/src\/obuchenie.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/obuchenie.html",
+		"oF": 2
+		},
+	"\/src\/obuchenie_net.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/obuchenie_net.html",
+		"oF": 2
 		}
 	},
 "hooks": [
@@ -1508,7 +2418,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 615762255,
-	"displayValue": "МессиЯ",
+	"displayValue": "messiya-frontend",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0
