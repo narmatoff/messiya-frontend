@@ -182,7 +182,7 @@ body {
     color: #000;
     position: relative;
     margin: 0 auto;
-    max-width: 1920px;
+    max-width: 1600px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -214,7 +214,7 @@ a {
 }
 .header #logo {
     float: left;
-    margin: 32px 0 0;
+    margin: 32px 0 0 -11px;
 }
 .header #logo img {
     display: block;
@@ -439,7 +439,7 @@ a {
     width: 240px;
     padding: 10px 20px;
     box-sizing: border-box;
-    box-shadow: 0 10px 10px 0px #000;
+    box-shadow: 0 8px 14px -10px #000;
 }
 .header .login_vipad a {
     color: #161616;
@@ -1110,7 +1110,6 @@ a {
     float: left;
     margin: 39px 0 0 60px;
     width: 420px;
-    display: none;
 }
 .block_vnutr .zanyatiya .zanyatie .video iframe {
     display: block;
@@ -1127,15 +1126,17 @@ a {
     font-weight: 500;
     font-size: 16px;
 }
+.block_vnutr .zanyatiya .zanyatie .raskr {
+    display: none;
+}
 .block_vnutr .zanyatiya .zanyatie .pol2 {
     float: left;
     width: 665px;
     margin: 58px 0 0 61px;
-    display: none;
 }
 .block_vnutr .zanyatiya .zanyatie .pol2 .audio {}
 .block_vnutr .zanyatiya .zanyatie .pol2 .audio audio {
-    display: block;
+    display: none;
     width: 100%;
     outline: none;
     border: none;
@@ -1157,10 +1158,6 @@ a {
     margin: 24px 0 0;
     font-size: 16px;
     line-height: 31px;
-}
-.block_vnutr .zanyatiya .zanyatie.opened .video,
-.block_vnutr .zanyatiya .zanyatie.opened .pol2 {
-    display: block;
 }
 .block_vnutr .zanyatiya .zanyatie.novoe {
     background: url("../images/novoe.png") no-repeat right top transparent;
@@ -1385,7 +1382,7 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    background: url("../images/razv.png") no-repeat right 8px transparent;
+    background: url("../images/razv.png") no-repeat right center transparent;
     padding: 0 34px 0 0;
 }
 .block_obsu .col2 .razv a:hover {
@@ -1417,7 +1414,7 @@ a {
 }
 .footer #logo2 {
     float: left;
-    margin: 43px 0 0;
+    margin: 43px 0 0 -11px;
 }
 .footer #logo2 img {
     display: block;
@@ -2032,4 +2029,60 @@ a {
     display: inline-block;
     vertical-align: middle;
     margin: -3px 0 0 11px;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player {
+    position: relative;
+    margin: 8px 0 19px;
+    padding: 4px 0 0 54px;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .play {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 46px;
+    height: 46px;
+    background: url("../images/play.png") no-repeat 0 0 transparent;
+    cursor: pointer;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .pause {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 46px;
+    height: 46px;
+    background: url("../images/pause.png") no-repeat 0 0 transparent;
+    cursor: pointer;
+    display: none;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .play:hover,
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .pause:hover {
+    opacity: .7;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .dorozhka {
+    width: 608px;
+    height: 22px;
+    background: url("../images/dorozhka.png") no-repeat 0 0 transparent;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .vrem {
+    background: transparent;
+    position: absolute;
+    margin: 0;
+    font-weight: 500;
+    color: #b5c2cd;
+    left: 53px;
+    bottom: -22px;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 0;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .razm {
+    background: transparent;
+    position: absolute;
+    margin: 0;
+    font-weight: 500;
+    color: #b5c2cd;
+    right: 0;
+    bottom: -22px;
+    font-size: 12px;
+    line-height: 18px;
 }
