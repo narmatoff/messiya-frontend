@@ -1,0 +1,20 @@
+<svg id="_" data-name="&lt;" xmlns="http://www.w3.org/2000/svg" width="60" height="59" viewBox="0 0 60 59">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #23aadc;
+        fill-opacity: 0;
+        stroke: #35a0fb;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #35a0fb;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Фигура_28" data-name="Фигура 28" class="cls-1" cx="30" cy="29.5" r="27"/>
+  <path id="Forma_1_копия_5" data-name="Forma 1 копия 5" class="cls-2" d="M813.1,1177.06l11.865-11.86a0.986,0.986,0,0,1,1.4,1.39L815.2,1177.76l11.165,11.17a0.981,0.981,0,0,1,0,1.39,0.99,0.99,0,0,1-1.4,0L813.1,1178.46A0.993,0.993,0,0,1,813.1,1177.06Z" transform="translate(-790.5 -1148.5)"/>
+</svg>

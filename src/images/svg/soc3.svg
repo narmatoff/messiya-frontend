@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.782" height="22.82" viewBox="0 0 22.782 22.82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="851.906" y="3244.09" width="22.782" height="22.82" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#b9b9b9"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Instagram_icon" data-name="Instagram icon" class="cls-1" d="M871.751,3266.89H854.826a2.929,2.929,0,0,1-2.927-2.92v-16.95a2.938,2.938,0,0,1,2.927-2.93h16.925a2.937,2.937,0,0,1,2.925,2.93v16.95A2.928,2.928,0,0,1,871.751,3266.89Zm0.216-19.22a0.867,0.867,0,0,0-.864-0.86h-2.067a0.867,0.867,0,0,0-.865.86v2.07a0.867,0.867,0,0,0,.865.86H871.1a0.867,0.867,0,0,0,.864-0.86v-2.07Zm0.555,6.18H870.16a7.174,7.174,0,0,1,.2,1.63,7.067,7.067,0,0,1-14.133,0,7.17,7.17,0,0,1,.195-1.63h-2.347v9.96a0.9,0.9,0,0,0,.9.9h16.635a0.9,0.9,0,0,0,.905-0.9v-9.96Zm-9.235-3.24a4.88,4.88,0,1,1-4.879,4.88A4.877,4.877,0,0,1,863.287,3250.61Z" transform="translate(-851.906 -3244.09)"/>
+</svg>
