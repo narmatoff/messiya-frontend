@@ -32,13 +32,13 @@ $( document ).ready(function() {
         $(".opac, .okno#okno3").show();
         $(".okno#okno3").css("top", $(document).scrollTop()+50);
         return false;
-    }, 2000000);
+    }, 2000);
     setTimeout(function(){
         $(".opac, .okno").hide();
         $(".opac, .okno#okno4").show();
         $(".okno#okno4").css("top", $(document).scrollTop()+50);
         return false;
-    }, 2000000);
+    }, 6000);
 
 
     let inputs = document.querySelectorAll('.input__file');
@@ -94,10 +94,28 @@ $( document ).ready(function() {
         return false;
     });
 
+
     $(".block_vnutr .zanyatiya .zanyatie .open").click(function(){
         $(this).parent().toggleClass("opened");
+        $(this).parent().find(".raskr").slideToggle();
         return false;
     });
+
+    $(".audio").each(function(){
+        var block=$(this);
+        var path = $(this).parent().find(".audio").attr('data-path');
+        var xhr = $.ajax({
+              type: "HEAD",
+              url: path,
+              success: function(msg){
+                block.find(".razm").text(Math.round(xhr.getResponseHeader('Content-Length')/1024/1024, 1)+' MB');
+              }
+            });
+    });
+
+
+
+
 
     $(".block_obuch .bl_polez .bxslider").bxSlider({
         touchEnabled: false,
@@ -109,4 +127,14 @@ $( document ).ready(function() {
     setInterval(function(){
         $(".block_obuch .bl_polez .bx-next").click();
     }, 10000);
+
+    $(".block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .play").click(function(){
+        $(this).parent().find(".pause").show();
+        $(this).hide();
+    });
+    $(".block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .pause").click(function(){
+        $(this).parent().find(".play").show();
+        $(this).hide();
+    });
+    
 });

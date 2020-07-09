@@ -182,9 +182,10 @@ body {
     color: #000;
     position: relative;
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 1900px;
     padding: 0;
     box-sizing: border-box;
+    max-width: none;
 }
 a {
     color: #000;
@@ -196,6 +197,18 @@ a {
     display: block;
     margin: 0;
     padding: 0;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #b2b2b2;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #b2b2b2;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #b2b2b2;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #b2b2b2;
 }
 .wrapper {
     width: 1444px;
@@ -247,7 +260,7 @@ a {
     opacity: .5;
 }
 .header .menu_top li.parent > a {
-    background: url("../images/parent.png") no-repeat right center transparent;
+    background: url("../images/svg/icon2.svg") no-repeat right center transparent;
     padding: 0 21px 0 0;
 }
 .header .menu_top li ul {
@@ -277,7 +290,7 @@ a {
     text-decoration: underline;
 }
 .header .lk_vhod {
-    background: url("../images/lk_vhod.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon3.svg") no-repeat 0 0 transparent;
     width: 21px;
     height: 24px;
     float: right;
@@ -294,6 +307,7 @@ a {
     box-sizing: border-box;
     padding: 615px 0 39px;
     text-align: center;
+    background-size: cover;
 }
 .block1 .text1 {
     font-family: 'magistralc', sans-serif;
@@ -340,9 +354,9 @@ a {
     margin: -3px 3px 0 0;
 }
 .block1 .bl_btns .btn1:hover {
-    background-image: -moz-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -webkit-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -ms-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block1 .bl_btns .btn2 {
     display: inline-block;
@@ -358,9 +372,9 @@ a {
     margin: 0 10px;
 }
 .block1 .bl_btns .btn2:hover {
-    background-image: -moz-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -webkit-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -ms-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block1 .text3 {
     color: #fff;
@@ -394,7 +408,7 @@ a {
     text-align: center;
     text-decoration: none;
     position: relative;
-    margin: 31px 24px 0 0;
+    margin: 31px 13px 0 0;
     width: 70px;
     font-size: 12px;
     line-height: 16px;
@@ -408,7 +422,7 @@ a {
 }
 .header .bl_login > span {
     position: absolute;
-    background: url("../images/bl_login.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon2.svg") no-repeat 0 0 transparent;
     width: 14px;
     height: 8px;
     top: 21px;
@@ -457,7 +471,7 @@ a {
     vertical-align: middle;
     width: 16px;
     height: 15px;
-    background: url("../images/like.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon20.svg") no-repeat 0 0 transparent;
 }
 .header .login_vipad hr {
     display: block;
@@ -473,9 +487,9 @@ a {
 .header .bl_mail {
     float: right;
     text-decoration: none;
-    background: url("../images/bl_mail.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon1.svg") no-repeat 0 0 transparent;
     width: 23px;
-    height: 17px;
+    height: 19px;
     position: relative;
     margin: 46px 27px 0 0;
 }
@@ -486,17 +500,18 @@ a {
     position: absolute;
     color: #fff;
     background: #299bfd;
+    height: 17px;
     line-height: 17px;
     padding: 0 5px;
     border-radius: 10px;
     top: -12px;
     right: -8px;
-    font-size: 12px;
+    font-size: 11px;
 }
 .opac {
     display: none;
     position: fixed;
-    z-index: 33;
+    z-index: 333;
     top: 0;
     right: 0;
     bottom: 0;
@@ -506,22 +521,26 @@ a {
 }
 .okno {
     position: absolute;
-    z-index: 35;
+    z-index: 335;
     width: 555px;
     left: 50%;
     margin: 0 0 0 -277px;
     background: url("../images/okno.png") no-repeat 0 0 transparent;
-    top: 194px;
+    top: 50px!important;
     background-size: cover;
     padding: 0 0 79px;
     display: none;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    position: fixed;
+    box-sizing: border-box;
 }
 .okno > span {
     cursor: pointer;
     position: absolute;
     width: 18px;
     height: 18px;
-    background: url("../images/close.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/close.svg") no-repeat 0 0 transparent;
     top: 20px;
     right: 20px;
 }
@@ -549,6 +568,10 @@ a {
     display: block;
     font-size: 14px;
     line-height: 18px;
+}
+.okno form input:not([type="radio"]):focus,
+.okno form select:focus {
+    border: 1px solid #39128f;
 }
 .okno form input:not([type="radio"]) {
     display: block;
@@ -586,9 +609,9 @@ a {
     margin: -3px 3px 0 0;
 }
 .okno form button:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -ms-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .okno .btn2 {
     float: right;
@@ -605,9 +628,9 @@ a {
     margin: 34px 0 0;
 }
 .okno .btn2:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -ms-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
   color: #fff;
 }
 .okno form .zabil {
@@ -701,6 +724,11 @@ a {
   background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
   background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
 }
+.okno form .btn2.center:hover {
+    background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+}
 .okno .btns {
     text-align: center;
     font-size: 0;
@@ -724,9 +752,9 @@ a {
     margin: 34px 0 0;
 }
 .okno .btn1:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -ms-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .okno .btn1 img {
     display: inline-block;
@@ -819,6 +847,7 @@ a {
 .block_vnutr {
     background: url("../images/block_vnutr.png") no-repeat center top transparent;
     padding: 96px 0 0;
+    background-size: contain;
 }
 .block_vnutr .bread {
     color: #ccc;
@@ -960,9 +989,9 @@ a {
     margin: 37px 0 0;
 }
 .block_vnutr .prohodyat .priso:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -ms-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block_vnutr .bl_opis_kurs {
     margin: 49px auto 0;
@@ -999,7 +1028,7 @@ a {
     float: left;
     text-decoration: underline;
     margin: 32px 0 0 -4px;
-    background: url("../images/har1.png") no-repeat left center transparent;
+    background: url("../images/svg/icon5.svg") no-repeat left center transparent;
     font-weight: 500;
     padding: 0 0 0 30px;
     font-size: 16px;
@@ -1011,7 +1040,7 @@ a {
 .block_vnutr .bl_opis_kurs .har2 {
     float: left;
     margin: 32px 0 0 45px;
-    background: url("../images/har21.png") no-repeat left center, url("../images/har22.png") no-repeat right center transparent;
+    background: url("../images/svg/icon6.svg") no-repeat left center, url("../images/svg/icon7.svg") no-repeat right center transparent;
     font-weight: 500;
     padding: 0 29px 0 27px;
     font-size: 16px;
@@ -1020,7 +1049,7 @@ a {
 .block_vnutr .bl_opis_kurs .har3 {
     float: left;
     margin: 32px 0 0 39px;
-    background: url("../images/har3.png") no-repeat left center transparent;
+    background: url("../images/svg/icon8.svg") no-repeat left center transparent;
     font-weight: 500;
     padding: 0 0 0 27px;
     font-size: 16px;
@@ -1030,18 +1059,18 @@ a {
     float: right;
     width: 26px;
     height: 23px;
-    background: url("../images/izbr.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon9.svg") no-repeat 0 0 transparent;
     margin: 30px 0 0;
 }
 .block_vnutr .bl_opis_kurs .izbr:hover {
     opacity: .7;
 }
 .block_vnutr .zanyatiya {
-    margin: 80px 11px 0;
+    margin: 80px 0px 0;
 }
 .block_vnutr .zanyatiya .zanyatie {
-    background: url("../images/zanyatie.png") no-repeat right top transparent;
-    background-size: cover;
+    background: url("../images/zanyatie.png") no-repeat right top #f1f2f4;
+    /* background-size: auto 100%; */
     position: relative;
     padding: 0 0 44px;
     margin: 0 0 21px;
@@ -1056,7 +1085,7 @@ a {
 .block_vnutr .zanyatiya .zanyatie .data {
     float: left;
     margin: 51px 0 0 52px;
-    background: url("../images/har3.png") no-repeat left center transparent;
+    background: url("../images/svg/icon8.svg") no-repeat left center transparent;
     font-weight: 500;
     padding: 0 0 0 27px;
     font-size: 16px;
@@ -1065,7 +1094,7 @@ a {
 .block_vnutr .zanyatiya .zanyatie .vrem {
     float: left;
     margin: 51px 0 0 21px;
-    background: url("../images/har4.png") no-repeat left center transparent;
+    background: url("../images/svg/icon10.svg") no-repeat left center transparent;
     font-weight: 500;
     padding: 0 0 0 27px;
     font-size: 16px;
@@ -1075,7 +1104,7 @@ a {
     float: left;
     width: 50px;
     height: 50px;
-    background: url("../images/open.png") no-repeat center center transparent;
+    background: url("../images/svg/icon21.svg") no-repeat center center transparent;
     margin: 0;
     position: absolute;
     top: 35px;
@@ -1088,17 +1117,17 @@ a {
     float: right;
     width: 26px;
     height: 23px;
-    background: url("../images/izbr2.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon11.svg") no-repeat 0 0 transparent;
     margin: 19px 21px 0 0;
 }
 .block_vnutr .zanyatiya .zanyatie .izbr:hover {
     opacity: .7;
 }
 .block_vnutr .zanyatiya .zanyatie.opened .izbr {
-    background: url("../images/izbr.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon9.svg") no-repeat 0 0 transparent;
 }
 .block_vnutr .zanyatiya .zanyatie.opened .open {
-    background: url("../images/open2.png") no-repeat center center transparent;
+    background: url("../images/svg/icon22.svg") no-repeat center center transparent;
 }
 .block_vnutr .zanyatiya .zanyatie.opened .zag {
     color: #299bfd;
@@ -1134,7 +1163,32 @@ a {
     width: 665px;
     margin: 58px 0 0 61px;
 }
-.block_vnutr .zanyatiya .zanyatie .pol2 .audio {}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio {
+    position: relative;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio > * {
+    opacity: 0;
+}
+.pol2 .audio.ready:before {
+    display: none;
+}
+.pol2 .audio:before {
+    content: "";
+    display: block;
+    -webkit-animation: rotate 6s infinite linear;
+    width: 100%;
+    height: 3px;
+    background: #299bfd;
+    opacity: 1;
+}
+  
+  @-webkit-keyframes rotate{
+    0%   {width: 0%; }
+    100%   {width: 100%; }
+  }
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio.ready > * {
+    opacity: 1;
+}
 .block_vnutr .zanyatiya .zanyatie .pol2 .audio audio {
     display: none;
     width: 100%;
@@ -1176,25 +1230,26 @@ a {
     font-size: 14px;
 }
 .block_vnutr .zanyatiya .zanyatie .priso:hover {
-    background-image: -moz-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -webkit-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -ms-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block_vnutr .zanyatiya .zanyatie.novoe .zag {
     color: #fff;
 }
 .block_vnutr .zanyatiya .zanyatie.novoe .data {
     color: #fff;
-    background: url("../images/har31.png") no-repeat left center transparent;
+    background: url("../images/svg/icon14.svg") no-repeat left center transparent;
 }
 .block_vnutr .zanyatiya .zanyatie.novoe .vrem {
     color: #fff;
-    background: url("../images/har41.png") no-repeat left center transparent;
+    background: url("../images/svg/icon15.svg") no-repeat left center transparent;
 }
 .block_obsu {
     background: url("../images/obsu.jpg") no-repeat center bottom transparent;
     margin: 30px 0 0;
     padding: 172px 0 115px;
+    background-size: contain;
 }
 .block_obsu .zagol {
     text-align: center;
@@ -1223,7 +1278,7 @@ a {
     display: block;
     padding: 0 0 0 27px;
     font-size: 14px;
-    background: url("../images/comm.png") no-repeat 1px 2px transparent;
+    background: url("../images/svg/icon17.svg") no-repeat 1px 2px transparent;
     line-height: 20px;
     margin: 3px 0 0;
 }
@@ -1335,7 +1390,7 @@ a {
     line-height: 24px;
 }
 .block_obsu .col2 .comment .bl_txt .like {
-    background: url("../images/like2.png") no-repeat 10px 6px #fff;
+    background: url("../images/svg/icon16.svg") no-repeat 10px 6px #fff;
     position: absolute;
     box-sizing: border-box;
     bottom: -13px;
@@ -1382,7 +1437,7 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    background: url("../images/razv.png") no-repeat right center transparent;
+    background: url("../images/svg/icon18.svg") no-repeat right center transparent;
     padding: 0 34px 0 0;
 }
 .block_obsu .col2 .razv a:hover {
@@ -1411,6 +1466,7 @@ a {
 .footer {
     background: url("../images/footer.png") no-repeat center top transparent;
     padding: 0 0 55px;
+    background-size: cover;
 }
 .footer #logo2 {
     float: left;
@@ -1447,7 +1503,7 @@ a {
     opacity: .5;
 }
 .footer .menu_top li.parent > a {
-    background: url("../images/parent.png") no-repeat right center transparent;
+    background: url("../images/svg/icon2.svg") no-repeat right center transparent;
     padding: 0 21px 0 0;
 }
 .footer .menu_top li ul {
@@ -1558,6 +1614,7 @@ a {
 .block_vnutr.var2 {
     background: url("../images/block_vnutr2.png") no-repeat center top transparent;
     padding-bottom: 150px;
+    background-size: contain;
 }
 .block_vnutr .podzag {
     text-align: center;
@@ -1567,7 +1624,7 @@ a {
     line-height: 29px;
 }
 .block_obuch {
-    background: url("../images/block_obuch.jpg") no-repeat center top #cdcdd9;
+    background: url("../images/block_obuch.jpg") repeat-x center top #cdcdd9;
     padding: 0 0 107px;
 }
 .block_obuch .col_l {
@@ -1682,7 +1739,9 @@ a {
     line-height: 37px;
     margin: 0 0 0 2px;
 }
-.block_obuch .col_r .pagin a:hover,
+.block_obuch .col_r .pagin a:hover {
+    background: #f2f4f8;
+}
 .block_obuch .col_r .pagin a.active {
     color: #fff;
     background: #0a22a6;
@@ -1691,9 +1750,11 @@ a {
     position: relative;
     margin: 24px 0 0;
     overflow: hidden;
-    padding: 0 0 28px;
-    background-size: cover!important;
+    padding: 0 0 26px;
+    background-size: 100%!important;
     transition: all .3s linear;
+    background-repeat: no-repeat;
+    background-color: #fff;
 }
 .block_obuch .col_r .kurs .label {
     position: absolute;
@@ -1764,15 +1825,15 @@ a {
     text-align: center;
 }
 .block_obuch .col_r .kurs .pol1 .btn1:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
-  background-image: -ms-linear-gradient( -2deg, rgb(53,8,137) 0%, rgb(41,156,254) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block_obuch .col_r .kurs .pol1 .izbr {
     float: left;
     width: 26px;
     height: 23px;
-    background: url("../images/izbr2.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon11.svg") no-repeat 0 0 transparent;
     margin: 26px 0 0 23px;
 }
 .block_obuch .col_r .kurs .pol1 .izbr:hover {
@@ -1789,7 +1850,7 @@ a {
     font-size: 16px;
     line-height: 20px;
     padding: 0 0 0 29px;
-    background: url("../images/in1.png") no-repeat left center transparent;
+    background: url("../images/svg/icon5.svg") no-repeat left center transparent;
 }
 .block_obuch .col_r .kurs .pol2 .in2 {
     float: left;
@@ -1797,7 +1858,7 @@ a {
     font-size: 16px;
     line-height: 20px;
     padding: 0 0 0 29px;
-    background: url("../images/in2.png") no-repeat left center transparent;
+    background: url("../images/svg/icon6.svg") no-repeat left center transparent;
     margin: 0 0 0 33px;
 }
 .block_obuch .col_r .kurs .pol2 .in3 {
@@ -1806,7 +1867,7 @@ a {
     font-size: 16px;
     line-height: 20px;
     padding: 0 0 0 29px;
-    background: url("../images/in3.png") no-repeat left center transparent;
+    background: url("../images/svg/icon8.svg") no-repeat left center transparent;
     margin: 0 0 0 33px;
 }
 .block_obuch .col_r .kurs.opened {
@@ -1819,13 +1880,18 @@ a {
     color: #000;
 }
 .block_obuch .col_r .kurs.opened .pol1 .izbr {
-    background: url("../images/izbr.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon9.svg") no-repeat 0 0 transparent;
 }
 .block_obuch .col_r .kurs .pol2 .categs {
     font-size: 0;
     margin: 18px 0 0;
 }
-.block_obuch .col_r .kurs .pol2 .categs p {
+.block_obuch .col_r .kurs .pol2 .categs a:hover {
+  background: #0a22a6;
+  color: #fff;
+}
+.block_obuch .col_r .kurs .pol2 .categs a {
+  text-decoration: none;
     display: inline-block;
     vertical-align: top;
     font-size: 12px;
@@ -1855,7 +1921,7 @@ a {
     display: none;
     width: 23px;
     height: 11px;
-    background: url("../images/openn.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon22.svg") no-repeat 0 0 transparent;
     margin: 18px auto 0;
 }
 .block_obuch .col_r .kurs .pol2 .open:hover {
@@ -1882,6 +1948,10 @@ a {
 }
 .block_obuch .col_r .kurs.opened .pol1 .izbr {
     margin-top: 56px;
+}
+.block_obuch .col_r .kurs.opened .pol1 .btn1.send {
+    border: 1px solid #000;
+    color: #000;
 }
 .block_obuch .col_r .kurs .pol1 .btn1.send {
     background: transparent;
@@ -1912,9 +1982,9 @@ a {
     font-size: 14px;
 }
 .block_obuch .bl_polez .all:hover {
-    background-image: -moz-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -webkit-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -ms-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
     color: #fff;
 }
 .block_obuch .bl_polez .bx-viewport {
@@ -1962,6 +2032,8 @@ a {
 }
 .block_obuch .bl_polez .bx-viewport li .more:hover {
     text-decoration: underline;
+    color: #23aadc;
+    background: url("../images/more2.png") no-repeat right center transparent;
 }
 .block_obuch .bx-wrapper .bx-pager {
     display: none;
@@ -1971,22 +2043,28 @@ a {
     margin: 0 0 0 -8px;
     top: -56px;
     left: 50%;
-    width: 57px;
+    width: 58px;
     height: 57px;
-    background: url("../images/strel.png") no-repeat left top transparent;
+    background: url("../images/svg/icon24.svg") no-repeat left top transparent;
+    opacity: 1;
+    z-index: 20;
 }
 .block_obuch .bx-wrapper .bx-next {
     display: block;
     margin: 0 0 0 62px;
     top: -56px;
     left: 50%;
-    width: 57px;
+    width: 58px;
+    z-index: 20;
     height: 57px;
-    background: url("../images/strel.png") no-repeat right top transparent;
+    background: url("../images/svg/icon25.svg") no-repeat right top transparent;
+    opacity: 1;
 }
-.block_obuch .bx-wrapper .bx-prev:hover,
 .block_obuch .bx-wrapper .bx-next:hover {
-    opacity: .7;
+    background: url("../images/svg/icon27.svg") no-repeat right top transparent;
+}
+.block_obuch .bx-wrapper .bx-prev:hover {
+    background: url("../images/svg/icon26.svg") no-repeat left top transparent;
 }
 .block_obuch .col_r .net_kursa {
     text-align: center;
@@ -2020,9 +2098,9 @@ a {
     font-size: 14px;
 }
 .block_obuch .col_r .net_kursa .sbros:hover {
-    background-image: -moz-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -webkit-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
-    background-image: -ms-linear-gradient( -2deg, rgba(53,8,137, .5) 0%, rgba(41,156,254, .5) 100%);
+  background-image: -moz-linear-gradient( -2deg, rgba(41,156,254, .5) 0%, rgba(53,8,137, .5) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgba(41,156,254, .5) 0%, rgba(53,8,137, .5) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgba(41, 156, 254, .5) 0%, rgba(53,8,137, .5) 80%);
     color: #fff;
 }
 .block_obuch .col_r .net_kursa .sbros img {
@@ -2034,6 +2112,8 @@ a {
     position: relative;
     margin: 8px 0 19px;
     padding: 4px 0 0 54px;
+    height: 22px;
+    box-sizing: border-box;
 }
 .block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .play {
     position: absolute;
@@ -2041,7 +2121,7 @@ a {
     top: 0;
     width: 46px;
     height: 46px;
-    background: url("../images/play.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon12.svg") no-repeat 0 0 transparent;
     cursor: pointer;
 }
 .block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .pause {
@@ -2050,7 +2130,7 @@ a {
     top: 0;
     width: 46px;
     height: 46px;
-    background: url("../images/pause.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/icon13.svg") no-repeat 0 0 transparent;
     cursor: pointer;
     display: none;
 }
@@ -2062,6 +2142,10 @@ a {
     width: 608px;
     height: 22px;
     background: url("../images/dorozhka.png") no-repeat 0 0 transparent;
+    position: relative;
+    opacity: 0;
+    left: 0;
+    z-index: 2;
 }
 .block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .vrem {
     background: transparent;
@@ -2085,4 +2169,181 @@ a {
     bottom: -22px;
     font-size: 12px;
     line-height: 18px;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .dorozhka {
+    position: absolute;
+    left: 54px;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    height: 22px;
+    z-index: 20;
+}
+.block_vnutr .zanyatiya .zanyatie .pol2 .audio .dorozhka > * {
+    overflow: hidden!important;
+    height: 44px!important;
+}
+.block_ui {
+    margin: 20px 0;
+}
+.ui_btn1 {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+    line-height: 54px;
+    font-size: 14px;
+    padding: 0 40px;
+    border-radius: 35px;
+    margin: 0;
+    font-weight: 500;
+}
+.ui_btn1 img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 3px 0 0;
+}
+.ui_btn1:not(.disabled):hover {
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+}
+.ui_btn1.disabled,
+.ui_btn2.disabled {
+    opacity: .3;
+    cursor: default;
+}
+.ui_btn2 {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #15269c;
+    line-height: 52px;
+    font-size: 14px;
+    padding: 0 40px;
+    font-weight: 500;
+    border-radius: 35px;
+    border: 1px solid #15269c;
+    margin: 0;
+}
+.ui_btn2:not(.disabled):hover {
+  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  color: #fff;
+}
+.ui_pagin {
+    font-size: 0;
+}
+.ui_pagin a {
+    color: #0a22a6;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    padding: 0 14px;
+    border-radius: 4px;
+    line-height: 37px;
+    margin: 0 0 0 2px;
+}
+.ui_pagin a:hover {
+    background: #f2f4f8;
+}
+.ui_pagin a.active {
+    color: #fff;
+    background: #0a22a6;
+}
+.ui_strel {}
+.ui_strel .ui_prev {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    width: 58px;
+    height: 57px;
+    background: url("../images/svg/icon24.svg") no-repeat left top transparent;
+    opacity: 1;
+    z-index: 20;
+}
+.ui_strel .ui_next {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    width: 58px;
+    z-index: 20;
+    height: 57px;
+    background: url("../images/svg/icon25.svg") no-repeat right top transparent;
+    opacity: 1;
+}
+.ui_strel .ui_prev:hover {
+    background: url("../images/svg/icon26.svg") no-repeat left top transparent;
+}
+.ui_strel .ui_next:hover {
+    background: url("../images/svg/icon27.svg") no-repeat right top transparent;
+}
+.ui_more {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #96989d;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px;
+    background: url("../images/more.png") no-repeat right center transparent;
+    padding: 0 29px 0 0;
+}
+.ui_more:hover {
+    text-decoration: underline;
+    color: #23aadc;
+    background: url("../images/more2.png") no-repeat right center transparent;
+}
+.ui_tag {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    background: #e6eaef;
+    color: #86a1b8;
+    font-weight: 500;
+    line-height: 23px;
+    border-radius: 15px;
+    padding: 0 14px;
+    margin: 0 7px 0 0;
+}
+.ui_tag:hover {
+  background: #0a22a6;
+  color: #fff;
+}
+.ui_input {
+    display: block;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #b2b2b2;
+    background: #fff;
+    margin: 5px 0;
+    height: 52px;
+    padding: 0 21px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.ui_input:focus {
+    border: 1px solid #39128f;
+}
+.ui_input:disabled {
+    opacity: .7;
+}
+.ui_error .ui_input {
+    border: 1px solid #c63232;
+}
+.ui_error p {
+    color: #c63232;
+    font-weight: 500;
+    font-size: 12px;
 }
