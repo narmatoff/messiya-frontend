@@ -1,4 +1,10 @@
 $( document ).ready(function() {
+    // Отключение клика на НЕ активных элементах
+    $(".disabled, .disabled a").click(function(){
+        return false;
+    });
+
+    // Раскрытие меню пользователя
     $(".header .bl_login").click(function(){
         $(".header .login_vipad").slideToggle();
         return false;
@@ -11,36 +17,43 @@ $( document ).ready(function() {
         }
     });
 
-    $(".opac, .okno > span").click(function(){
-        $(".opac, .okno").hide();
+    // Закрытие всплывающих окон
+    $(".opac, .okno > span, .block_obuch .col_l > span").click(function(){
+        $(".opac, .okno, .block_obuch .col_l").hide();
         return false;
     });
+
+    // Открытие окна логина
     $(".header .lk_vhod, .block1 .bl_btns .btn1").click(function(){
         $(".opac, .okno").hide();
         $(".opac, .okno#okno1").show();
         $(".okno#okno1").css("top", $(document).scrollTop()+50);
         return false;
     });
+    // Открытие окна регистрации
     $(".okno form .btn2, .block1 .bl_btns .btn2").click(function(){
         $(".opac, .okno").hide();
         $(".opac, .okno#okno2").show();
         $(".okno#okno2").css("top", $(document).scrollTop()+50);
         return false;
     });
+    // Открытие окна Вебинара
     setTimeout(function(){
         $(".opac, .okno").hide();
         $(".opac, .okno#okno3").show();
         $(".okno#okno3").css("top", $(document).scrollTop()+50);
         return false;
-    }, 2000);
+    }, 200000);
+    // Открытие окна Участников
     setTimeout(function(){
         $(".opac, .okno").hide();
         $(".opac, .okno#okno4").show();
         $(".okno#okno4").css("top", $(document).scrollTop()+50);
         return false;
-    }, 6000);
+    }, 600000);
 
 
+    // Для стилизации input[type="file"]
     let inputs = document.querySelectorAll('.input__file');
     Array.prototype.forEach.call(inputs, function (input) {
       let label = input.nextElementSibling,
@@ -58,6 +71,7 @@ $( document ).ready(function() {
       });
     });
 
+    // Раскрытие полного текста на странице Курс
     var $visota;
     $(".block_vnutr .bl_opis_kurs .full_text").click(function(){
         $visota = $(".block_vnutr .bl_opis_kurs .full_text p").outerHeight();
@@ -66,6 +80,7 @@ $( document ).ready(function() {
         return false;
     });
 
+    // Раскрытие всех комментариев
     var $visota2;
     $(".block_obsu .col2 .razv a").click(function(){
         $visota2 = $(".block_obsu .col2 .comments .height").outerHeight();
@@ -75,6 +90,7 @@ $( document ).ready(function() {
         return false;
     });
 
+    // Раскрытие карточки на странице Обучение
     var $visota3;
     $(".block_obuch .col_r .kurs .pol2 .bl_text").click(function(){
         $visota3 = $(this).find("p").outerHeight();
@@ -87,6 +103,7 @@ $( document ).ready(function() {
         $(this).parent().parent().toggleClass("opened");
         return false;
     });
+    // Скрытие карточки на странице Обучение
     $(".block_obuch .col_r .kurs .pol2 .open").click(function(){
         $(this).parent().find(".bl_text").removeAttr("style");
         $(this).parent().find(".bl_text").toggleClass("opened");
@@ -94,13 +111,14 @@ $( document ).ready(function() {
         return false;
     });
 
-
+    // Раскрытие карточки на странице Курс
     $(".block_vnutr .zanyatiya .zanyatie .open").click(function(){
         $(this).parent().toggleClass("opened");
         $(this).parent().find(".raskr").slideToggle();
         return false;
     });
 
+    // Подгрузка аудио-файлов
     $(".audio").each(function(){
         var block=$(this);
         var path = $(this).parent().find(".audio").attr('data-path');
@@ -113,10 +131,7 @@ $( document ).ready(function() {
             });
     });
 
-
-
-
-
+    // Инициализация слайдера Полезная информация
     $(".block_obuch .bl_polez .bxslider").bxSlider({
         touchEnabled: false,
         minSlides: 3,
@@ -128,13 +143,33 @@ $( document ).ready(function() {
         $(".block_obuch .bl_polez .bx-next").click();
     }, 10000);
 
+    // Запуск аудио
     $(".block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .play").click(function(){
         $(this).parent().find(".pause").show();
         $(this).hide();
     });
+    // Пауза аудио
     $(".block_vnutr .zanyatiya .zanyatie .pol2 .audio .bl_player .pause").click(function(){
         $(this).parent().find(".play").show();
         $(this).hide();
     });
+
+
+    // Раскрытие меню в мобильной версии
+    $("#menu_tg").click(function(){
+        $(".header .menu_top").slideToggle();
+        return false;
+    });
+    $("#menu_tg2").click(function(){
+        $(".footer .menu_top").slideToggle();
+        return false;
+    });
     
+    // Раскрытие фильтра в обучении в мобильной версии
+    $("#tg_filt").click(function(){
+        $(".opac, .okno").hide();
+        $(".opac, .block_obuch .col_l").show();
+        return false;
+    });
+
 });

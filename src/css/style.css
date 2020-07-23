@@ -253,7 +253,7 @@ a {
     font-weight: 500;
     line-height: 20px;
 }
-.header .menu_top li a:hover {
+.header .menu_top li:not(.disabled) a:hover {
     text-decoration: underline;
 }
 .header .menu_top li.disabled > a {
@@ -274,7 +274,7 @@ a {
     background: rgba(0,0,0,.3);
     padding: 5px;
 }
-.header .menu_top li:hover ul {
+.header .menu_top li:hover:not(.disabled) ul {
     display: block;
 }
 .header .menu_top li ul li {
@@ -294,7 +294,7 @@ a {
     width: 21px;
     height: 24px;
     float: right;
-    margin: 44px 11px 0 0;
+    margin: 44px 0px 0 0;
 }
 .header .lk_vhod:hover {
     opacity: .7;
@@ -339,9 +339,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    background-image: -moz-linear-gradient( -2deg, rgba(41,156,254, .5) 0%, rgba(53,8,137, .5) 100%);
-    background-image: -webkit-linear-gradient( -2deg, rgba(41,156,254, .5) 0%, rgba(53,8,137, .5) 100%);
-    background-image: -ms-linear-gradient( -2deg, rgba(41,156,254, .5) 0%, rgba(53,8,137, .5) 100%);
+    background-image: linear-gradient( 90deg, rgba(41,156,254, .5) 0%, rgba(53,8,137, .5) 100%);
     line-height: 54px;
     font-size: 14px;
     padding: 0 40px;
@@ -354,9 +352,7 @@ a {
     margin: -3px 3px 0 0;
 }
 .block1 .bl_btns .btn1:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block1 .bl_btns .btn2 {
     display: inline-block;
@@ -372,9 +368,7 @@ a {
     margin: 0 10px;
 }
 .block1 .bl_btns .btn2:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block1 .text3 {
     color: #fff;
@@ -440,7 +434,7 @@ a {
     border-bottom-color: #fff;
     border-top: 0;
     top: -14px;
-    right: 44px;
+    right: 32px;
 }
 .header .login_vipad {
     display: none;
@@ -594,9 +588,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
     line-height: 54px;
     font-size: 14px;
     padding: 0 40px;
@@ -609,9 +601,7 @@ a {
     margin: -3px 3px 0 0;
 }
 .okno form button:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .okno .btn2 {
     float: right;
@@ -628,9 +618,7 @@ a {
     margin: 34px 0 0;
 }
 .okno .btn2:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
   color: #fff;
 }
 .okno form .zabil {
@@ -720,14 +708,10 @@ a {
     width: 254px;
     color: #fff;
     border: none;
-    background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+    background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
 }
 .okno form .btn2.center:hover {
-    background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+    background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .okno .btns {
     text-align: center;
@@ -742,9 +726,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
     line-height: 54px;
     font-size: 14px;
     padding: 0 40px;
@@ -752,9 +734,7 @@ a {
     margin: 34px 0 0;
 }
 .okno .btn1:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .okno .btn1 img {
     display: inline-block;
@@ -979,9 +959,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-    background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-    background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+    background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
     line-height: 54px;
     font-size: 14px;
     padding: 0 40px;
@@ -989,9 +967,7 @@ a {
     margin: 37px 0 0;
 }
 .block_vnutr .prohodyat .priso:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block_vnutr .bl_opis_kurs {
     margin: 49px auto 0;
@@ -1157,6 +1133,7 @@ a {
 }
 .block_vnutr .zanyatiya .zanyatie .raskr {
     display: none;
+    position: relative;
 }
 .block_vnutr .zanyatiya .zanyatie .pol2 {
     float: left;
@@ -1175,14 +1152,14 @@ a {
 .pol2 .audio:before {
     content: "";
     display: block;
-    -webkit-animation: rotate 6s infinite linear;
+    animation: rotate 6s infinite linear;
     width: 100%;
     height: 3px;
     background: #299bfd;
     opacity: 1;
 }
   
-  @-webkit-keyframes rotate{
+  @keyframes rotate{
     0%   {width: 0%; }
     100%   {width: 100%; }
   }
@@ -1230,9 +1207,7 @@ a {
     font-size: 14px;
 }
 .block_vnutr .zanyatiya .zanyatie .priso:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block_vnutr .zanyatiya .zanyatie.novoe .zag {
     color: #fff;
@@ -1627,6 +1602,31 @@ a {
     background: url("../images/block_obuch.jpg") repeat-x center top #cdcdd9;
     padding: 0 0 107px;
 }
+.block_obuch .col_l > span {
+    display: none;
+}
+.block_obuch .col_l .btn1 {
+    float: left;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+    line-height: 54px;
+    font-size: 14px;
+    padding: 0;
+    border-radius: 35px;
+    margin: 10px 0 0;
+    width: 220px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+}
+.block_obuch .col_l .btn1:hover {
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+}
 .block_obuch .col_l {
     float: left;
     width: 215px;
@@ -1751,7 +1751,7 @@ a {
     margin: 24px 0 0;
     overflow: hidden;
     padding: 0 0 26px;
-    background-size: 100%!important;
+    background-size: auto 100%!important;
     transition: all .3s linear;
     background-repeat: no-repeat;
     background-color: #fff;
@@ -1812,9 +1812,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-    background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-    background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+    background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
     line-height: 54px;
     font-size: 14px;
     padding: 0;
@@ -1825,9 +1823,7 @@ a {
     text-align: center;
 }
 .block_obuch .col_r .kurs .pol1 .btn1:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .block_obuch .col_r .kurs .pol1 .izbr {
     float: left;
@@ -1870,8 +1866,10 @@ a {
     background: url("../images/svg/icon8.svg") no-repeat left center transparent;
     margin: 0 0 0 33px;
 }
-.block_obuch .col_r .kurs.opened {
-    background: #f1f2f4!important;
+@media all and (min-width: 1471px) {
+    .block_obuch .col_r .kurs.opened {
+        background: #f1f2f4!important;
+    }
 }
 .block_obuch .col_r .kurs.opened .pol1 {
     margin-top: 81px;
@@ -1961,6 +1959,7 @@ a {
 }
 .block_obuch .bl_polez {
     margin: 125px 0 0;
+    position: relative;
 }
 .block_obuch .bl_polez .zag {
     float: left;
@@ -1982,9 +1981,7 @@ a {
     font-size: 14px;
 }
 .block_obuch .bl_polez .all:hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
     color: #fff;
 }
 .block_obuch .bl_polez .bx-viewport {
@@ -2098,9 +2095,7 @@ a {
     font-size: 14px;
 }
 .block_obuch .col_r .net_kursa .sbros:hover {
-  background-image: -moz-linear-gradient( -2deg, rgba(41,156,254, .5) 0%, rgba(53,8,137, .5) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgba(41,156,254, .5) 0%, rgba(53,8,137, .5) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgba(41, 156, 254, .5) 0%, rgba(53,8,137, .5) 80%);
+  background-image: linear-gradient( 90deg, rgba(41,156,254, .5) 0%, rgba(53,8,137, .5) 80%);
     color: #fff;
 }
 .block_obuch .col_r .net_kursa .sbros img {
@@ -2184,7 +2179,9 @@ a {
     height: 44px!important;
 }
 .block_ui {
-    margin: 20px 0;
+    margin: 0 0 67px;
+    position: relative;
+    padding: 0 0 0 160px;
 }
 .ui_btn1 {
     display: inline-block;
@@ -2192,9 +2189,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 100%);
     line-height: 54px;
     font-size: 14px;
     padding: 0 40px;
@@ -2208,9 +2203,7 @@ a {
     margin: -3px 3px 0 0;
 }
 .ui_btn1:not(.disabled):hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
 }
 .ui_btn1.disabled,
 .ui_btn2.disabled {
@@ -2232,9 +2225,7 @@ a {
     margin: 0;
 }
 .ui_btn2:not(.disabled):hover {
-  background-image: -moz-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -webkit-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
-  background-image: -ms-linear-gradient( -2deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
+  background-image: linear-gradient( 90deg, rgb(41,156,254) 0%, rgb(53,8,137) 80%);
   color: #fff;
 }
 .ui_pagin {
@@ -2346,4 +2337,779 @@ a {
     color: #c63232;
     font-weight: 500;
     font-size: 12px;
+}
+.disabled, .disabled a {
+    cursor: default;
+}
+.bl_ui {
+    padding: 144px 171px;
+}
+.bl_ui h1 {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 58px;
+    margin: 0 0 73px;
+}
+.block_ui .podpis {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.block_ui .podpis2 {
+    display: inline-block;
+    vertical-align: top;
+    color: #999;
+    font-size: 15px;
+    line-height: 19px;
+    width: 183px;
+    text-align: center;
+    margin: 0 0 24px;
+}
+.block_ui .ui_btn1, .block_ui .ui_btn2 {
+    margin: 0 38px 0 0;
+}
+.block_ui .ui_strel {
+    margin: 48px 0 0;
+}
+.block_ui .ui_input,
+.block_ui .ui_error {
+    display: inline-block;
+    vertical-align: top;
+    width: 131px;
+    margin: 0 67px 0 0;
+}
+#menu_tg,
+#menu_tg2 {
+    display: none;
+}
+#tg_filt {
+    display: none;
+}
+
+
+@media all and (max-width: 1470px) {
+    .wrapper {
+        width: 1200px;
+    }
+    .header .menu_top {
+        margin: 46px 0 0 90px;
+    }
+    .block1 {
+        padding: 456px 0 39px;
+    }
+    .block1 .text1 {
+        font-size: 43px;
+        line-height: 54px;
+    }
+    .block1 .text2 {
+        font-size: 46px;
+        line-height: 56px;
+        margin: 4px 0 0;
+    }
+    .header .menu_top li {
+        margin: 0 55px 0 0;
+    }
+    .block_vnutr .zagol {
+        font-size: 55px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .pol2 {
+        margin: 58px 0 0 30px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .priso {
+        margin: 35px 0 -11px 30px;
+    }
+    .block_vnutr .zanyatiya .zanyatie.ekzamen .priso {
+        margin-left: 30px;
+    }
+    .block_obsu .col1 {
+        margin: 70px 0 0 48px;
+    }
+    .block_obsu .col2 {
+        float: right;
+        margin: 65px 90px 0 0;
+    }
+    .footer .menu_top {
+        margin: 57px 0 0 47px;
+    }
+    .footer .menu_top li {
+        margin: 0 67px 0 0;
+    }
+    .footer .social {
+        margin: 99px 153px 0 0;
+    }
+    .block_obuch .col_r {
+        width: 985px;
+    }
+    .block_obuch .col_r .kurs .pol1 {
+        width: 370px;
+    }
+    .block_obuch .col_r .kurs .pol2 {
+        float: right;
+        margin: 32px 20px 0 0;
+        width: 519px;
+    }
+}
+
+@media all and (max-width: 1230px) {
+    .wrapper {
+        width: 720px;
+    }
+    .header #logo {
+        margin: 33px 0 0 295px;
+    }
+    #menu_tg {
+        display: block;
+        cursor: pointer;
+        width: 29px;
+        height: 14px;
+        position: absolute;
+        left: 0;
+        top: 47px;
+        background: url("../images/svg/menu.svg") no-repeat 0 0 transparent;
+    }
+    .header .menu_top {
+        display: none;
+        margin: 0;
+        position: absolute;
+        z-index: 1300;
+        left: 0;
+        width: 300px;
+        box-sizing: border-box;
+        top: 68px;
+        background: #000;
+        padding: 10px;
+    }
+    .block1 {
+        padding: 553px 0 40px;
+    }
+    .header .menu_top li {
+        display: block;
+        margin: 3px 0;
+        background: rgba(255,255,255,.1);
+    }
+    .header .menu_top li ul {
+        display: block;
+        position: relative;
+        top: 0;
+        width: auto;
+    }
+    .header .menu_top li a {
+        padding: 5px!important;
+        background: transparent!important;
+    }
+    .block_vnutr .zagol {
+        font-size: 41px;
+        line-height: 55px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .zag {
+        margin: 30px 0 0 30px;
+        max-width: 270px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .data {
+        margin: 40px 0 0 25px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .vrem {
+        margin: 40px 0 0 15px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .izbr {
+        margin: 10px 10px 0 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .block_vnutr .zanyatiya .zanyatie .open {
+        right: 49px;
+        top: 27px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .video {
+        margin: 39px 0 0 30px;
+        width: 345px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .video iframe {
+        height: 195px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .pol2 {
+        width: 292px;
+        margin: 39px 30px 0 0;
+        float: right;
+    }
+    .block_vnutr .zanyatiya .zanyatie .pol2 .audio {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        right: 30px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .raskr {
+        padding: 0 0 55px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .pol2 .url {
+        margin: 0;
+    }
+    .block_vnutr .zanyatiya .zanyatie .priso {
+        clear: both;
+        float: none;
+        display: block;
+        text-align: center;
+        width: 220px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0px auto 0!important;
+        position: relative;
+        top: 15px;
+    }
+    .block_obsu {
+        padding: 109px 0;
+    }
+    .block_obsu .col1 {
+        margin: 70px 0 0;
+    }
+    .block_obsu .col1 .tema {
+        padding: 0 0 0 31px;
+    }
+    .block_obsu .col2 {
+        margin: 65px 0 0 0;
+        width: 471px;
+    }
+    .block_obsu .col2 .add_com textarea {
+        width: 395px;
+    }
+    .block_obsu .col2 .comment .bl_txt {
+        width: 395px;
+    }
+    .footer #logo2 {
+        margin: 36px 0 0 295px;
+    }
+    .footer .menu_top {
+        display: none;
+        margin: 0;
+        position: absolute;
+        z-index: 300;
+    }
+    .footer .zare {
+        display: none;
+    }
+    .footer .social {
+        margin: 37px 262px 0;
+        text-align: center;
+    }
+    .footer .copy {
+        margin: 20px 0 0;
+        width: 100%;
+        text-align: center;
+    }
+    .footer {
+        padding: 0 0 47px;
+    }
+    #menu_tg2 {
+        display: block;
+        cursor: pointer;
+        width: 29px;
+        height: 14px;
+        position: absolute;
+        left: 0;
+        top: 47px;
+        background: url("../images/svg/menu.svg") no-repeat 0 0 transparent;
+    }
+    .footer .menu_top {
+        display: none;
+        margin: 0;
+        position: absolute;
+        z-index: 300;
+        left: 0;
+        width: 300px;
+        box-sizing: border-box;
+        bottom: 150px;
+        background: #000;
+        padding: 10px;
+    }
+    .footer .menu_top li {
+        display: block;
+        margin: 3px 0;
+        background: rgba(255,255,255,.1);
+    }
+    .footer .menu_top li ul {
+        display: block;
+        position: relative;
+        top: 0;
+        width: auto;
+    }
+    .footer .menu_top li a {
+        padding: 5px!important;
+        background: transparent!important;
+    }
+    .block_obuch .col_r {
+        width: 530px;
+    }
+    .block_obuch .col_l {
+        width: 180px;
+    }
+    .block_obuch .col_r .kurs {
+    background: transparent!important;
+    }
+    .block_obuch .col_r .kurs .pol1 {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px 0 0!important;
+        text-align: center;
+        background: url(../images/kurs1.png) no-repeat left top transparent;
+        background-size: auto 100%!important;
+        padding: 37px 0 37px;
+    }
+    .block_obuch .col_r .kurs .pol1 .zag {
+        color: #fff!important;
+    }
+    .block_obuch .col_r .kurs .pol1 .btn1 {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 15px 0 0!important;
+    }
+    .block_obuch .col_r .kurs .pol1 .izbr {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+        background: url("../images/svg/icon11.svg") no-repeat 0 0 transparent!important;
+        margin: 26px 0 0 25px!important;
+    }
+    .block_obuch .col_r .kurs .pol2 {
+        margin: 0;
+        background: #fff;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .block_obuch .col_r .kurs .pol2 .bl_text:after {
+        box-shadow: 190px 0 50px 70px #fff;
+    }
+    .block_obuch .bl_polez .all {
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 220px;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0;
+    }
+    .block_obuch .bx-wrapper .bx-next {
+        margin: 0;
+        right: 0;
+        left: auto;
+    }
+    .block_obuch .bx-wrapper .bx-prev {
+        margin: 0;
+        left: auto;
+        right: 68px;
+    }
+    .block_obuch .bl_polez .bx-viewport li {
+        width: 360px!important;
+    }
+    .block_obuch .bl_polez {
+        margin: 100px 0 0;
+        padding: 0 0 90px;
+    }
+    .okno#okno4,
+    .okno#okno3 {
+        width: 700px;
+        margin: 0 0 0 -350px;
+    }
+    .block_obuch .col_r .net_kursa {
+        margin: 100px 0 0;
+    }
+    .block_obuch .col_r .kurs .pol1 .btn1.send {
+        color: #fff!important;
+        border: 1px solid #fff!important;
+    }
+    .block_vnutr .bl_opis_kurs {
+        width: 100%;
+    }
+    .header {
+        z-index: 120;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .wrapper {
+        width: 290px;
+    }
+    .header #logo {
+        margin: 6px 0 0 80px;
+    }
+    #menu_tg {
+        top: 21px;
+    }
+    .header .lk_vhod {
+        margin: 17px 0 0;
+    }
+    .block1 {
+        padding: 238px 0 20px;
+    }
+    .block1 .text1 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .block1 .text2 {
+        font-size: 27px;
+        line-height: 29px;
+    }
+    .block1 .bl_btns {
+        margin: 12px 0 0;
+        min-height: 0;
+    }
+    .block1 .bl_btns .btn2 {
+        margin: 16px 0 0;
+    }
+    .block1 .text3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .block1 .text4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .okno .zag {
+        font-size: 20px;
+        line-height: 22px;
+        padding: 30px 0 0!important;
+    }
+    .okno .podzag {
+        font-size: 15px;
+        line-height: 19px;
+        margin: 10px 0 0!important;
+    }
+    .okno {
+        width: 290px;
+        margin: 0 0 0 -145px;
+        padding: 0 0 20px;
+    }
+    .okno form {
+        margin: 20px 20px 0;
+    }
+    .okno form button {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+    .okno .btn2 {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 10px 0 0;
+        padding: 0;
+        text-align: center;
+    }
+    .okno form .pol1 {
+        width: 100%;
+    }
+    .okno#okno4, .okno#okno3 {
+        width: 290px;
+        margin: 0 0 0 -145px;
+    }
+    .okno > span {
+        top: 10px;
+        right: 10px;
+    }
+    .okno .btns .btn1, .okno .btns .btn2 {
+        margin: 5px 0!important;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        text-align: center;
+    }
+    .okno .btns {
+        margin: 10px 20px 0;
+    }
+    .okno .spis_ucha {
+        margin: 20px 10px 10px;
+    }
+    .header .bl_mail {
+        display: none;
+    }
+    .header .bl_login {
+        font-size: 0;
+        margin: 8px 0 0;
+    }
+    .header .bl_login > span {
+        display: none;
+    }
+    .block_vnutr .bread {
+        display: none;
+    }
+    .block_vnutr .zagol {
+        font-size: 30px;
+        line-height: 31px;
+        margin: 29px 0 0;
+    }
+    .block_vnutr .prohodyat .spis_ucha .ucha {
+        width: 47px;
+    }
+    .block_vnutr .prohodyat .spis_ucha .ucha.perv {
+        width: 65px;
+        margin-top: -9px;
+    }
+    .block_vnutr .prohodyat {
+        margin: 152px 0 0;
+    }
+    .block_vnutr .prohodyat p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .block_vnutr .prohodyat .priso {
+        margin: 18px 0 0;
+        line-height: 17px;
+        padding: 10px 70px;
+    }
+    .block_vnutr .bl_opis_kurs {
+        position: relative;
+        margin: 40px 0 0;
+        padding: 47px 0 0;
+    }
+    .block_vnutr .bl_opis_kurs .izbr {
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+    .block_vnutr .bl_opis_kurs .har2 {
+        margin: 32px 0 0;
+        float: right;
+    }
+    .block_vnutr .bl_opis_kurs .har3 {
+        margin: 17px 0 0;
+    }
+    .block_vnutr .zanyatiya {
+        margin: 50px 0 0;
+    }
+    .block_vnutr .zanyatiya .zanyatie {
+        background: url("../images/bg_zanya.png") no-repeat center bottom transparent;
+        padding: 0 0 109px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .zag {
+        margin: 17px 0 0 24px;
+        max-width: 90%;
+    }
+    .block_vnutr .zanyatiya .zanyatie .data {
+        margin: 17px 0 0 25px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .vrem {
+        margin: 10px 0 0 25px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .open {
+        top: auto;
+        bottom: 1px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .block_vnutr .zanyatiya .zanyatie .izbr {
+        background: url("../images/svg/icon9.svg") no-repeat 0 0 transparent;
+        margin: 22px 16px 0 0;
+    }
+    .block_vnutr .zanyatiya .zanyatie .video {
+        margin: 35px 0 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .video iframe {
+        height: 149px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .pol2 {
+        margin: 25px 0 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .pol2 .audio {
+        left: 15px;
+        right: 15px;
+    }
+    .block_vnutr .zanyatiya .zanyatie .raskr {
+        /* padding: 0; */
+    }
+    .block_vnutr .zanyatiya .zanyatie.opened {
+        background: #f1f2f4;
+        padding: 0 0 57px;
+    }
+    .block_obsu {
+        padding: 35px 0 111px;
+    }
+    .block_obsu .col1 {
+        margin: 23px 0 0;
+        width: 100%;
+    }
+    .block_obsu .col2 {
+        margin: 7px 0 0;
+        width: 100%;
+    }
+    .block_obsu .col2 .add_com .user {
+        width: 50px;
+    }
+    .block_obsu .col2 .add_com textarea {
+        width: 228px;
+        margin: 6px 0 0;
+        float: right;
+        font-size: 14px;
+        padding: 10px 19px;
+    }
+    .block_obsu .col2 .add_com p {
+        margin: 7px 0 0;
+        float: right;
+        font-size: 12px;
+    }
+    .block_obsu .col2 .comment .user {
+        width: 51px;
+    }
+    .block_obsu .col2 .comment .bl_txt {
+        width: 230px;
+        padding: 23px 20px 20px;
+    }
+    .block_obsu .col2 .comment .bl_txt p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 5px 0 0;
+        text-align: justify;
+    }
+    .block_obsu .col2 .comment .knop {
+        margin: 10px 0 0;
+        float: right;
+        font-size: 13px;
+    }
+    .footer #logo2 {
+        margin: 36px 0 0 79px;
+    }
+    .footer .bl_login {
+        font-size: 0;
+    }
+    .footer .social {
+        margin: 37px 46px 0;
+    }
+    .footer .copy {
+        font-size: 13px;
+    }
+    .block_vnutr .zanyatiya .zanyatie.novoe {
+        padding: 0 0 35px;
+    }
+    .block_vnutr .podzag {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .block_vnutr.var2 {
+        padding-bottom: 121px;
+    }
+    .block_obuch .col_l {
+        width: 100%;
+        display: none;
+        position: fixed;
+        z-index: 1330;
+        background: #fff;
+        left: 0;
+        right: 0;
+        box-sizing: border-box;
+        width: 290px;
+        margin: 0 auto;
+        top: 10px;
+        bottom: 10px;
+        padding: 15px;
+        overflow-y: auto;
+    }
+    .block_obuch .col_r {
+        width: 100%;
+        margin: 0;
+    }
+    .block_obuch .col_r .filtr,
+    .block_obuch .col_r .nayd,
+    .block_obuch .col_r .pagin {
+        display: none;
+    }
+    .block_obuch .col_r .kurs {
+        margin: 0 0 24px;
+        padding: 0;
+    }
+    .block_obuch .col_r .kurs .pol1 {
+        padding: 18px 20px 30px;
+    }
+    .block_obuch .col_r .kurs .pol1 .zag {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .block_obuch .col_r .kurs .pol1 .btn1 {
+        display: block;
+        width: 100%;
+    }
+    .block_obuch .col_r .kurs .pol2 .categs a {
+        margin: 3px;
+    }
+    .block_obuch .bl_polez {
+        margin: 34px 0 0;
+    }
+    .block_obuch .bl_polez .zag {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .block_obuch .bx-wrapper .bx-prev,
+    .block_obuch .bx-wrapper .bx-next {
+        display: none;
+    }
+    .block_obuch .bl_polez .bx-viewport li {
+        width: 290px!important;
+        padding: 35px 0 0;
+    }
+    .block_obuch .bl_polez .bx-viewport li .zg {
+        font-size: 24px;
+        line-height: 30px;
+        margin: 13px 0 0;
+    }
+    .block_obuch .bl_polez .bx-viewport li p {
+        margin: 8px 0 0;
+    }
+    .block_obuch .col_l > span {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        background: url("../images/svg/close.svg") no-repeat 0 0 transparent;
+        top: 20px;
+        right: 20px;
+    }
+    .block_obuch .col_l > span:hover {
+        opacity: .7;
+    }
+    #tg_filt {
+        display: block;
+        cursor: pointer;
+        width: 65px;
+        height: 65px;
+        background: url("../images/tg_filt.png") no-repeat center top transparent;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 200;
+    }
+    .block_obuch .col_l .btn1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .block_obuch .col_r .net_kursa {
+        margin: 0;
+    }
+    .header .login_vipad {
+        top: 73px;
+    }
+    .header .login_vipad:before {
+        right: 21px;
+    }
+    .block_obuch .col_r .kurs .pol1 .izbr {
+        margin: 25px 0 0!important;
+    }
 }

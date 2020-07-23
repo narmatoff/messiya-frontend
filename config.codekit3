@@ -1596,8 +1596,8 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/audio.mp3",
-		"oF": 0
+		"oAP": "\/build\/audio.mp3",
+		"oF": 2
 		},
 	"\/src\/css\/jquery.bxslider.css": {
 		"aP": 1,
@@ -1616,7 +1616,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/build\/css\/style.css",
-		"oF": 3,
+		"oF": 2,
 		"oS": 3
 		},
 	"\/src\/fonts\/Geometria-Bold.eot": {
@@ -2036,6 +2036,17 @@
 		"iS": 6475,
 		"oA": 0,
 		"oAP": "\/build\/images\/add_ucha.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/bg_zanya.png": {
+		"ft": 32768,
+		"iS": 139485,
+		"oA": 0,
+		"oAP": "\/build\/images\/bg_zanya.png",
 		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
@@ -2971,6 +2982,16 @@
 		"plM": 3757957087,
 		"prP": 0
 		},
+	"\/src\/images\/svg\/menu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/images\/svg\/menu.svg",
+		"oF": 2,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/src\/images\/svg\/soc1.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3000,6 +3021,17 @@
 		"opt": 1,
 		"plM": 3757957087,
 		"prP": 0
+		},
+	"\/src\/images\/tg_filt.png": {
+		"ft": 32768,
+		"iS": 4767,
+		"oA": 0,
+		"oAP": "\/build\/images\/tg_filt.png",
+		"oF": 2,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/src\/images\/u1.png": {
 		"ft": 32768,
@@ -3108,7 +3140,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/js\/scripts.js",
-		"oF": 3,
+		"oF": 2,
 		"sC": 0,
 		"tS": 1
 		},
@@ -3164,8 +3196,8 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
-	"autoprefixerEnableIEGrid": 0,
+	"autoprefixerBrowserString": "> 20%, last 5 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 1,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
