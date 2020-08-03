@@ -172,4 +172,52 @@ $( document ).ready(function() {
         return false;
     });
 
+    // Раскрытие поиска в шапке
+    $(".header .bl_search .btn").click(function(){
+        $(this).toggleClass("opened");
+        $(this).parent().find("form").slideToggle();
+        return false;
+    });
+    $(document).mouseup(function (e){
+        var div = $(".header .bl_search");
+        if (!div.is(e.target) && div.has(e.target).length === 0) {
+            $(".header .bl_search form").slideUp();
+            $(".header .bl_search .btn").removeClass("opened");
+        }
+    });
+
+    // Раскрытие комментариев в новостях
+    $(".block_obuch .bl_novosti .novost .comm_op").click(function(){
+        if($(this).text()=="Показать комментарии") {
+            $(this).text("Свернуть комментарии");
+            $(this).parent().find(".comments").slideDown();
+        } else {
+            $(this).text("Показать комментарии");
+            $(this).parent().find(".comments").slideUp();
+        }
+        return false;
+    });
+
+    // Открытие окна "товар добавлен"
+    $(".block_obuch .bl_tovars .tovarr .ui_btn1").click(function(){
+        $(".opac, .okno").hide();
+        $(".opac, .okno#okno5").show();
+        $(".okno#okno5").css("top", $(document).scrollTop()+50);
+        return false;
+    });
+
+    // Инициализация слайдера с товарами
+    var carousel=$(".okno#okno6 .bxslider").bxSlider({
+        touchEnabled: false
+    });
+
+    // Открытие окна с полным товаром
+    $(".block_obuch .bl_tovars .tovarr .zago, .block_obuch .bl_tovars .tovarr .bl_img").click(function(){
+        $(".opac, .okno").hide();
+        $(".opac, .okno#okno6").show();
+        $(".okno#okno6").css("top", $(document).scrollTop()+50);
+        carousel.reloadSlider();
+        return false;
+    });
+
 });
