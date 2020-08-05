@@ -309,7 +309,7 @@ a {
     position: relative;
     z-index: 3;
     box-sizing: border-box;
-    padding: 615px 0 39px;
+    padding: 145px 0 39px;
     text-align: center;
     background-size: cover;
 }
@@ -1307,17 +1307,17 @@ a {
     margin: 65px 0 0 113px;
     width: 716px;
 }
-.block_obsu .col2 .add_com {
+.add_com {
     margin: 0 0 17px;
 }
-.block_obsu .col2 .add_com .user {
+.add_com .user {
     float: left;
     box-sizing: border-box;
     border: 2px solid #fff;
     border-radius: 50%;
     width: 64px;
 }
-.block_obsu .col2 .add_com textarea {
+.add_com textarea {
     outline: none;
     float: left;
     box-sizing: border-box;
@@ -1330,7 +1330,7 @@ a {
     padding: 10px 27px 0;
     font-size: 16px;
 }
-.block_obsu .col2 .add_com p {
+.add_com p {
     float: left;
     font-weight: 500;
     margin: 8px 0 0 38px;
@@ -1642,6 +1642,9 @@ a {
     line-height: 20px;
     margin: 36px 0 23px;
 }
+.block_obuch .col_l .ui_btn2 {
+    margin: 20px 0 0;
+}
 .block_obuch .col_l label {
     display: block;
     cursor: pointer;
@@ -1714,7 +1717,7 @@ a {
     vertical-align: middle;
     width: 18px;
     height: 18px;
-    background: url("../images/del.png") no-repeat 0 0 transparent;
+    background: url("../images/svg/del.svg") no-repeat 0 0 transparent;
     margin: -3px 0 0 21px;
     cursor: pointer;
 }
@@ -2393,7 +2396,11 @@ a {
 #tg_filt {
     display: none;
 }
-.block1 .logo_big {}
+.block1 .logo_big {
+    display: block;
+    margin: 0 auto 30px;
+    width: 435px;
+}
 .header .bl_search {
     float: right;
     position: relative;
@@ -2522,6 +2529,7 @@ a {
 .bl_about {
     background: url("../images/about.jpg") no-repeat center top transparent;
     padding: 61px 0 120px;
+    background-size: cover;
 }
 .bl_about .logo_about {
     display: block;
@@ -2833,7 +2841,7 @@ a {
     margin: 0 0 35px 35px;
     background: url("../images/proekt.png") no-repeat center bottom #fff;
     background-size: 100%;
-    padding: 0 0 57px;
+    padding: 0 0 62px;
 }
 .bl_proekty .spis_proekt .proekt .bl_img {
     display: block;
@@ -2882,7 +2890,7 @@ a {
 }
 .bl_proekty .spis_proekt .proekt .bl_obol {
     position: relative;
-    height: 220px;
+    height: 215px;
     overflow: hidden;
     margin: 47px 35px 0 64px;
 }
@@ -3096,4 +3104,167 @@ a {
 }
 .okno#okno6 .bx-wrapper .bx-prev:hover {
     background: url("../images/svg/icon26.svg") no-repeat left top transparent;
+}
+.block_vnutr.back5 {
+    background: url("../images/back5.jpg") no-repeat center top transparent;
+    padding-bottom: 30px;
+}
+.block_vnutr .prohodyat.extra {
+    margin: 208px 0 0;
+}
+.block_vnutr .prohodyat.extra .like1 {
+    background: url("../images/svg/icon9.svg") no-repeat 0 0 transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 23px;
+    margin: 37px 0 0;
+}
+.block_vnutr .prohodyat.extra .like1:hover {
+    opacity: .7;
+}
+.block_vnutr .extra + .bl_opis_kurs {
+    margin: 25px auto 0;
+    text-align: center;
+}
+.block_vnutr .extra + .bl_opis_kurs .full_text {
+    height: auto;
+}
+.block_obsu .col1 .zagg {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 27px;
+}
+.block_obsu .col2 .tema1 {
+    border-bottom: 1px solid #caccd8;
+    padding: 0 0 25px;
+    margin: 0 0 26px;
+}
+.block_obsu .col2 .tema1 .zago {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+}
+.block_obsu .col2 .tema1 .data {
+    font-weight: 500;
+    color: #bebebe;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 10px 0 13px;
+}
+.block_obsu .col2 .tema1 p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.block_obsu .col2 .tema1 .prav {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 10px 0 0;
+    color: #299bfd;
+}
+.block_obsu .col2 .tema1 .prav:hover {
+    text-decoration: none;
+}
+.block_obsu .col2 .tema1 .spis_pho {
+    margin: 31px 0 0;
+}
+.block_obsu .col2 .tema1 .spis_pho img {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+}
+.block_obsu .col2 .tema1 .comm_op.opened {
+    background: url("../images/svg/icon17.svg") no-repeat 1px 2px, url("../images/svg/comm2.svg") no-repeat right center transparent;
+}
+.block_obsu .col2 .tema1 .comm_op {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 23px 0 0;
+    background: url("../images/svg/icon17.svg") no-repeat 1px 2px, url("../images/svg/comm1.svg") no-repeat right center transparent;
+    padding: 0 29px 0 29px;
+}
+.block_obsu .col2 .tema1 .comm_op:hover {
+    text-decoration: none;
+}
+.block_obsu .col2 .tema1 .comments {
+    margin: 32px 0 0px;
+    height: 330px;
+    display: none;
+}
+.block_obsu .col2 .tema1 .all_comm {
+    text-decoration: underline;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 18px 0 13px 69px;
+    display: none;
+}
+.block_obsu .col2 .tema1 .all_comm:hover {
+    text-decoration: underline;
+}
+.block_obsu .col2 .tema1 .add_com {
+    display: none;
+}
+.block_obsu.extra {
+    background: #fff;
+    margin: 0;
+    padding: 24px 0 0;
+}
+.block_obsu.extra .col1 {
+    margin: 0 0 0 150px;
+}
+.block_obsu.extra .col2 {
+    margin: -4px 0 0 55px;
+    width: 860px;
+}
+.block_obsu.extra .col2 .comment .bl_txt {
+    width: 792px;
+    background: #f1f2f4;
+}
+.block_obsu.extra .col2 .comments:after {
+    box-shadow: 0 0 60px 105px #fff;
+}
+.extra .add_com textarea {
+    background: #f1f2f4;
+    width: 784px;
+}
+.block_obsu .col2 .tema1 .comm_op.opened + .comments + .all_comm + .add_com {
+    display: block;
+}
+.block_obsu .col2 .tema1 .comm_op.opened + .comments + .all_comm {
+    display: inline-block;
+}
+.block_obsu .col2 .tema1 .pravnet {
+    color: #9c9c9c;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 10px 0 0;
+}
+.block_vnutr .extra + .bl_opis_kurs .full_text:after {
+    display: none;
+}
+.okno#okno7 {
+    background: #fff;
+    margin: 0 0 0 -383px;
+    width: 766px;
+    padding: 0 0 60px;
+}
+.okno#okno7 img {
+    display: block;
+    margin: 30px auto 0;
+    max-width: 100%;
+    height: auto;
 }

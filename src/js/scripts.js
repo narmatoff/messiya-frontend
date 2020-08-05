@@ -18,7 +18,11 @@ $( document ).ready(function() {
     });
 
     // Закрытие всплывающих окон
-    $(".opac, .okno > span, .block_obuch .col_l > span").click(function(){
+    $(".opac, .okno > span").click(function(){
+        $(".opac, .okno").hide();
+        return false;
+    });
+    $(".block_obuch .col_l > span").click(function(){
         $(".opac, .okno, .block_obuch .col_l").hide();
         return false;
     });
@@ -199,7 +203,7 @@ $( document ).ready(function() {
     });
 
     // Открытие окна "товар добавлен"
-    $(".block_obuch .bl_tovars .tovarr .ui_btn1").click(function(){
+    $(".block_obuch .bl_tovars .tovarr .ui_btn1, .okno#okno6 li .obol .pol2 .ui_btn1").click(function(){
         $(".opac, .okno").hide();
         $(".opac, .okno#okno5").show();
         $(".okno#okno5").css("top", $(document).scrollTop()+50);
@@ -217,6 +221,44 @@ $( document ).ready(function() {
         $(".opac, .okno#okno6").show();
         $(".okno#okno6").css("top", $(document).scrollTop()+50);
         carousel.reloadSlider();
+        return false;
+    });
+
+    // Переключение фото товара
+    $(".okno#okno6 .bx-viewport li .obol .pol1 .bl_imgs a").click(function(){
+        $(this).parent().find("a").removeClass("active");
+        $(this).addClass("active");
+        $(this).parent().parent().find(".full").attr("src", $(this).find("img").attr("src"));
+        return false;
+    });
+
+    // Раскрытие комментариев в проекте экстрасенсорики
+    $(".block_obsu .col2 .tema1 .comm_op").click(function(){
+        if($(this).hasClass("opened")) {
+            $(this).removeClass("opened");
+            $(this).parent().find(".comments").slideUp();
+        } else {
+            $(this).addClass("opened");
+            $(this).parent().find(".comments").slideDown();
+        }
+        return false;
+    });
+
+    // Раскрытие всех комментариев в проекте экстрасенсорики
+    var $visota3;
+    $(".block_obsu .col2 .tema1 .all_comm").click(function(){
+        $visota3 = $(this).parent().find(".height").outerHeight();
+        $(this).parent().find(".comments").css("height", $visota3);
+        $(this).parent().find(".comments").addClass("opened");
+        $(this).slideUp();
+        return false;
+    });
+
+    // Открытие окна Правильный ответ
+    $(".block_obsu .col2 .tema1 .prav").click(function(){
+        $(".opac, .okno").hide();
+        $(".opac, .okno#okno7").show();
+        $(".okno#okno7").css("top", $(document).scrollTop()+50);
         return false;
     });
 
