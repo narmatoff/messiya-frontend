@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="15.531" height="8.56" viewBox="0 0 15.531 8.56">
-    <defs>
-        <style>
-            .cls-1{fill:#161616;fill-rule:evenodd}
-        </style>
-    </defs>
-    <path id="Свернуть" d="M703.422 1258.41l-6.981 6.99a.788.788 0 0 0 0 1.11.776.776 0 0 0 1.108 0l6.427-6.44 6.426 6.44a.777.777 0 0 0 1.109 0 .786.786 0 0 0 0-1.11l-6.981-6.99a.8.8 0 0 0-1.108 0z" class="cls-1" transform="translate(-696.219 -1258.19)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="15.531" height="8.56" viewBox="0 0 15.531 8.56"><defs><style>.cls-1{fill:#161616;fill-rule:evenodd}</style></defs><path id="Свернуть" class="cls-1" d="M703.422 1258.41l-6.981 6.99a.788.788 0 0 0 0 1.11.776.776 0 0 0 1.108 0l6.427-6.44 6.426 6.44a.777.777 0 0 0 1.109 0 .786.786 0 0 0 0-1.11l-6.981-6.99a.8.8 0 0 0-1.108 0z" transform="translate(-696.219 -1258.19)"/></svg>

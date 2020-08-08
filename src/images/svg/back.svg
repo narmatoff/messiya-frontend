@@ -1,9 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="_" width="60" height="59" data-name="&lt;" viewBox="0 0 60 59">
-    <defs>
-        <style>
-            .cls-1,.cls-2{fill:#fff}.cls-1{fill-opacity:0;stroke:#fff;stroke-linejoin:round;stroke-width:1px}.cls-2{fill-rule:evenodd}
-        </style>
-    </defs>
-    <circle id="Фигура_28" cx="30" cy="29.5" r="27" class="cls-1" data-name="Фигура 28"/>
-    <path id="Forma_1_копия_5" d="M125.1 474.061l11.864-11.861a.989.989 0 1 1 1.4 1.4L127.2 474.761l11.165 11.165a.989.989 0 0 1-1.4 1.4L125.1 475.46a.992.992 0 0 1 0-1.399z" class="cls-2" data-name="Forma 1 копия 5" transform="translate(-102.5 -445.5)"/>
+<svg id="_" data-name="&lt;" xmlns="http://www.w3.org/2000/svg" width="60" height="59" viewBox="0 0 60 59">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        fill-opacity: 0;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Фигура_28" data-name="Фигура 28" class="cls-1" cx="30" cy="29.5" r="27"/>
+  <path id="Forma_1_копия_5" data-name="Forma 1 копия 5" class="cls-2" d="M125.1,474.061L136.964,462.2a0.989,0.989,0,1,1,1.4,1.4L127.2,474.761l11.165,11.165a0.989,0.989,0,0,1-1.4,1.4L125.1,475.46A0.992,0.992,0,0,1,125.1,474.061Z" transform="translate(-102.5 -445.5)"/>
 </svg>

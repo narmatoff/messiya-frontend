@@ -2147,6 +2147,13 @@
 		"oAP": "\/build\/audio.mp3",
 		"oF": 2
 		},
+	"\/src\/authform_error.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/authform_error.html",
+		"oF": 2
+		},
 	"\/src\/css\/jquery.bxslider.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2181,352 +2188,352 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Bold.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Bold.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Bold.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Bold.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Bold.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Bold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Bold.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Bold.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-BoldItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-BoldItalic.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-BoldItalic.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-BoldItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-BoldItalic.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-BoldItalic.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-BoldItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-BoldItalic.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-BoldItalic.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraBold.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraBold.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraBold.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraBold.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraBold.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraBold.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraBold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraBold.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraBold.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraBoldItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraBoldItalic.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraBoldItalic.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraBoldItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraBoldItalic.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraBoldItalic.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraBoldItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraBoldItalic.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraBoldItalic.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraLight.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraLight.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraLight.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraLight.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraLight.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraLight.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraLight.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraLight.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraLight.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraLightItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraLightItalic.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraLightItalic.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraLightItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraLightItalic.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraLightItalic.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ExtraLightItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ExtraLightItalic.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ExtraLightItalic.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Heavy.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Heavy.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Heavy.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Heavy.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Heavy.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Heavy.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Heavy.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Heavy.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Heavy.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-HeavyItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-HeavyItalic.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-HeavyItalic.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-HeavyItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-HeavyItalic.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-HeavyItalic.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-HeavyItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-HeavyItalic.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-HeavyItalic.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Italic.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Italic.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Italic.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Italic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Italic.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Italic.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Italic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Italic.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Italic.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Light.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Light.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Light.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Light.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Light.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Light.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Light.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Light.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Light.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-LightItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-LightItalic.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-LightItalic.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-LightItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-LightItalic.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-LightItalic.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-LightItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-LightItalic.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-LightItalic.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Medium.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Medium.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Medium.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Medium.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Medium.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Medium.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Medium.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Medium.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Medium.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-MediumItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-MediumItalic.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-MediumItalic.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-MediumItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-MediumItalic.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-MediumItalic.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-MediumItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-MediumItalic.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-MediumItalic.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Thin.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Thin.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Thin.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Thin.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Thin.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Thin.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-Thin.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-Thin.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-Thin.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ThinItalic.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ThinItalic.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ThinItalic.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ThinItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ThinItalic.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ThinItalic.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria-ThinItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria-ThinItalic.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria-ThinItalic.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/Geometria.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/Geometria.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/Geometria.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/magistralc-bold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/magistralc-bold-webfont.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/magistralc-bold-webfont.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/magistralc-bold-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "\/src\/fonts\/magistralc-bold-webfont.svg",
-		"oF": 0,
-		"opt": 0,
+		"oA": 0,
+		"oAP": "\/build\/fonts\/magistralc-bold-webfont.svg",
+		"oF": 3,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -2534,37 +2541,37 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/magistralc-bold-webfont.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/magistralc-bold-webfont.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/magistralc-bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/magistralc-bold-webfont.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/magistralc-bold-webfont.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/magistralc-bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/magistralc-bold-webfont.woff2",
-		"oF": 0
+		"oAP": "\/build\/fonts\/magistralc-bold-webfont.woff2",
+		"oF": 2
 		},
 	"\/src\/fonts\/rzipsgcg-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/rzipsgcg-webfont.eot",
-		"oF": 0
+		"oAP": "\/build\/fonts\/rzipsgcg-webfont.eot",
+		"oF": 2
 		},
 	"\/src\/fonts\/rzipsgcg-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "\/src\/fonts\/rzipsgcg-webfont.svg",
-		"oF": 0,
-		"opt": 0,
+		"oA": 0,
+		"oAP": "\/build\/fonts\/rzipsgcg-webfont.svg",
+		"oF": 3,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -2572,33 +2579,33 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/rzipsgcg-webfont.ttf",
-		"oF": 0
+		"oAP": "\/build\/fonts\/rzipsgcg-webfont.ttf",
+		"oF": 2
 		},
 	"\/src\/fonts\/rzipsgcg-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/rzipsgcg-webfont.woff",
-		"oF": 0
+		"oAP": "\/build\/fonts\/rzipsgcg-webfont.woff",
+		"oF": 2
 		},
 	"\/src\/fonts\/rzipsgcg-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/src\/fonts\/rzipsgcg-webfont.woff2",
-		"oF": 0
+		"oAP": "\/build\/fonts\/rzipsgcg-webfont.woff2",
+		"oF": 2
 		},
 	"\/src\/images\/404.jpg": {
 		"ft": 16384,
 		"iS": 121184,
-		"jF": 1,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/404.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 90
+		"q": 100
 		},
 	"\/src\/images\/about.jpg": {
 		"ft": 16384,
@@ -2606,7 +2613,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/about.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2616,7 +2623,7 @@
 		"iS": 6475,
 		"oA": 0,
 		"oAP": "\/build\/images\/add_ucha.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2627,7 +2634,7 @@
 		"iS": 371,
 		"oA": 0,
 		"oAP": "\/build\/images\/back.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2639,7 +2646,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/back1.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2650,7 +2657,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/back2.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2661,7 +2668,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/back3.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2672,7 +2679,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/back4.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2683,7 +2690,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/back5.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2693,7 +2700,7 @@
 		"iS": 6332,
 		"oA": 0,
 		"oAP": "\/build\/images\/badge.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2704,7 +2711,7 @@
 		"iS": 139485,
 		"oA": 0,
 		"oAP": "\/build\/images\/bg_zanya.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2715,7 +2722,7 @@
 		"iS": 5207,
 		"oA": 0,
 		"oAP": "\/build\/images\/bl_login.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2726,7 +2733,7 @@
 		"iS": 5393,
 		"oA": 0,
 		"oAP": "\/build\/images\/bl_mail.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2738,7 +2745,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/block1.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2749,7 +2756,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/block11.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2760,7 +2767,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/block_obuch.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -2770,7 +2777,7 @@
 		"iS": 1005050,
 		"oA": 0,
 		"oAP": "\/build\/images\/block_vnutr.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2781,7 +2788,7 @@
 		"iS": 713293,
 		"oA": 0,
 		"oAP": "\/build\/images\/block_vnutr2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2792,7 +2799,7 @@
 		"iS": 2175,
 		"oA": 0,
 		"oAP": "\/build\/images\/close.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2803,7 +2810,7 @@
 		"iS": 5444,
 		"oA": 0,
 		"oAP": "\/build\/images\/comm.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2814,7 +2821,7 @@
 		"iS": 5420,
 		"oA": 0,
 		"oAP": "\/build\/images\/del.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2825,7 +2832,7 @@
 		"iS": 5572,
 		"oA": 0,
 		"oAP": "\/build\/images\/dorozhka.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2836,7 +2843,7 @@
 		"iS": 79869,
 		"oA": 0,
 		"oAP": "\/build\/images\/ekzamen.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2847,7 +2854,7 @@
 		"iS": 6457,
 		"oA": 0,
 		"oAP": "\/build\/images\/favicon.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2858,7 +2865,7 @@
 		"iS": 3360,
 		"oA": 0,
 		"oAP": "\/build\/images\/file.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2869,7 +2876,7 @@
 		"iS": 314148,
 		"oA": 0,
 		"oAP": "\/build\/images\/footer.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2880,7 +2887,7 @@
 		"iS": 5332,
 		"oA": 0,
 		"oAP": "\/build\/images\/har1.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2891,7 +2898,7 @@
 		"iS": 5257,
 		"oA": 0,
 		"oAP": "\/build\/images\/har21.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2902,7 +2909,7 @@
 		"iS": 5364,
 		"oA": 0,
 		"oAP": "\/build\/images\/har22.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2913,7 +2920,7 @@
 		"iS": 5347,
 		"oA": 0,
 		"oAP": "\/build\/images\/har3.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2924,7 +2931,7 @@
 		"iS": 5346,
 		"oA": 0,
 		"oAP": "\/build\/images\/har31.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2935,7 +2942,7 @@
 		"iS": 5366,
 		"oA": 0,
 		"oAP": "\/build\/images\/har4.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2946,7 +2953,7 @@
 		"iS": 5362,
 		"oA": 0,
 		"oAP": "\/build\/images\/har41.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2957,7 +2964,7 @@
 		"iS": 5332,
 		"oA": 0,
 		"oAP": "\/build\/images\/in1.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2968,7 +2975,7 @@
 		"iS": 5257,
 		"oA": 0,
 		"oAP": "\/build\/images\/in2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2979,7 +2986,7 @@
 		"iS": 5347,
 		"oA": 0,
 		"oAP": "\/build\/images\/in3.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -2990,7 +2997,7 @@
 		"iS": 5598,
 		"oA": 0,
 		"oAP": "\/build\/images\/izbr.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3001,7 +3008,7 @@
 		"iS": 5599,
 		"oA": 0,
 		"oAP": "\/build\/images\/izbr2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3012,7 +3019,7 @@
 		"iS": 192270,
 		"oA": 0,
 		"oAP": "\/build\/images\/kurs1.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3023,7 +3030,7 @@
 		"iS": 102770,
 		"oA": 0,
 		"oAP": "\/build\/images\/kurs2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3034,7 +3041,7 @@
 		"iS": 5458,
 		"oA": 0,
 		"oAP": "\/build\/images\/like.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3045,7 +3052,7 @@
 		"iS": 5317,
 		"oA": 0,
 		"oAP": "\/build\/images\/like2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3056,7 +3063,7 @@
 		"iS": 5549,
 		"oA": 0,
 		"oAP": "\/build\/images\/lk_vhod.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3067,7 +3074,7 @@
 		"iS": 10062,
 		"oA": 0,
 		"oAP": "\/build\/images\/login.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3078,7 +3085,7 @@
 		"iS": 7382,
 		"oA": 0,
 		"oAP": "\/build\/images\/logo.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3089,7 +3096,7 @@
 		"iS": 53187,
 		"oA": 0,
 		"oAP": "\/build\/images\/logo_about.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3100,7 +3107,7 @@
 		"iS": 171508,
 		"oA": 0,
 		"oAP": "\/build\/images\/logo_big.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3111,7 +3118,7 @@
 		"iS": 561627,
 		"oA": 0,
 		"oAP": "\/build\/images\/logo_big2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3122,7 +3129,7 @@
 		"iS": 449636,
 		"oA": 0,
 		"oAP": "\/build\/images\/logooo.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3134,7 +3141,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/magaz.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3144,7 +3151,7 @@
 		"iS": 5325,
 		"oA": 0,
 		"oAP": "\/build\/images\/more.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3155,7 +3162,7 @@
 		"iS": 2218,
 		"oA": 0,
 		"oAP": "\/build\/images\/more2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3164,10 +3171,10 @@
 	"\/src\/images\/more2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "\/src\/images\/more2.svg",
-		"oF": 0,
-		"opt": 0,
+		"oA": 0,
+		"oAP": "\/build\/images\/more2.svg",
+		"oF": 3,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -3176,7 +3183,7 @@
 		"iS": 15021,
 		"oA": 0,
 		"oAP": "\/build\/images\/net_kursa.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3187,7 +3194,7 @@
 		"iS": 9872,
 		"oA": 0,
 		"oAP": "\/build\/images\/nlo.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3198,7 +3205,7 @@
 		"iS": 11118,
 		"oA": 0,
 		"oAP": "\/build\/images\/novoe.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3210,7 +3217,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/obol1.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3221,7 +3228,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/obol2.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3232,7 +3239,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/obol3.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3243,7 +3250,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/obsu.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3253,7 +3260,7 @@
 		"iS": 143685,
 		"oA": 0,
 		"oAP": "\/build\/images\/okno.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3264,7 +3271,7 @@
 		"iS": 93939,
 		"oA": 0,
 		"oAP": "\/build\/images\/okno2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3275,7 +3282,7 @@
 		"iS": 44380,
 		"oA": 0,
 		"oAP": "\/build\/images\/okno3.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3286,7 +3293,7 @@
 		"iS": 2535725,
 		"oA": 0,
 		"oAP": "\/build\/images\/opac.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3297,7 +3304,7 @@
 		"iS": 5329,
 		"oA": 0,
 		"oAP": "\/build\/images\/open.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3308,7 +3315,7 @@
 		"iS": 5335,
 		"oA": 0,
 		"oAP": "\/build\/images\/open2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3319,7 +3326,7 @@
 		"iS": 5335,
 		"oA": 0,
 		"oAP": "\/build\/images\/openn.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3331,7 +3338,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/otv1.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3342,7 +3349,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/otv2.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3352,7 +3359,7 @@
 		"iS": 5207,
 		"oA": 0,
 		"oAP": "\/build\/images\/parent.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3363,7 +3370,7 @@
 		"iS": 5754,
 		"oA": 0,
 		"oAP": "\/build\/images\/pause.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3374,7 +3381,7 @@
 		"iS": 2660,
 		"oA": 0,
 		"oAP": "\/build\/images\/ph1.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3385,7 +3392,7 @@
 		"iS": 6274,
 		"oA": 0,
 		"oAP": "\/build\/images\/play.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3397,7 +3404,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/pro1.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3408,7 +3415,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/pro2.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3419,7 +3426,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/pro3.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3430,7 +3437,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/pro4.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3441,7 +3448,7 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/images\/pro5.jpg",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -3451,7 +3458,7 @@
 		"iS": 28871,
 		"oA": 0,
 		"oAP": "\/build\/images\/proekt.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3462,7 +3469,7 @@
 		"iS": 5349,
 		"oA": 0,
 		"oAP": "\/build\/images\/razv.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3473,7 +3480,7 @@
 		"iS": 5306,
 		"oA": 0,
 		"oAP": "\/build\/images\/sbros.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3484,7 +3491,7 @@
 		"iS": 381,
 		"oA": 0,
 		"oAP": "\/build\/images\/search.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3495,7 +3502,7 @@
 		"iS": 385,
 		"oA": 0,
 		"oAP": "\/build\/images\/search1.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3506,7 +3513,7 @@
 		"iS": 255,
 		"oA": 0,
 		"oAP": "\/build\/images\/search2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3517,7 +3524,7 @@
 		"iS": 5477,
 		"oA": 0,
 		"oAP": "\/build\/images\/soc1.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3528,7 +3535,7 @@
 		"iS": 5267,
 		"oA": 0,
 		"oAP": "\/build\/images\/soc2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3539,7 +3546,7 @@
 		"iS": 5486,
 		"oA": 0,
 		"oAP": "\/build\/images\/soc3.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3550,7 +3557,7 @@
 		"iS": 5159,
 		"oA": 0,
 		"oAP": "\/build\/images\/soo.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3561,7 +3568,7 @@
 		"iS": 5120,
 		"oA": 0,
 		"oAP": "\/build\/images\/soob.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3572,7 +3579,7 @@
 		"iS": 8294,
 		"oA": 0,
 		"oAP": "\/build\/images\/strel.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -3595,8 +3602,8 @@
 		"oAP": "\/build\/images\/svg\/back1.svg",
 		"oF": 3,
 		"opt": 1,
-		"plM": 557808869375,
-		"prP": 1
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/images\/svg\/badge.svg": {
 		"ft": 2097152,
@@ -3605,8 +3612,8 @@
 		"oAP": "\/build\/images\/svg\/badge.svg",
 		"oF": 3,
 		"opt": 1,
-		"plM": 557808869375,
-		"prP": 1
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/images\/svg\/close.svg": {
 		"ft": 2097152,
@@ -3625,8 +3632,8 @@
 		"oAP": "\/build\/images\/svg\/comm1.svg",
 		"oF": 3,
 		"opt": 1,
-		"plM": 557808869375,
-		"prP": 1
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/images\/svg\/comm2.svg": {
 		"ft": 2097152,
@@ -3635,8 +3642,8 @@
 		"oAP": "\/build\/images\/svg\/comm2.svg",
 		"oF": 3,
 		"opt": 1,
-		"plM": 557808869375,
-		"prP": 1
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/images\/svg\/debug.log": {
 		"cB": 0,
@@ -3652,8 +3659,8 @@
 		"oAP": "\/build\/images\/svg\/del.svg",
 		"oF": 3,
 		"opt": 1,
-		"plM": 557808869375,
-		"prP": 1
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/images\/svg\/icon1.svg": {
 		"ft": 2097152,
@@ -3942,8 +3949,8 @@
 		"oAP": "\/build\/images\/svg\/net_kursa.svg",
 		"oF": 3,
 		"opt": 1,
-		"plM": 557808869375,
-		"prP": 1
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/images\/svg\/next.svg": {
 		"ft": 2097152,
@@ -4015,12 +4022,22 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/src\/images\/svg\/uzor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/build\/images\/svg\/uzor.svg",
+		"oF": 3,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/src\/images\/tg_filt.png": {
 		"ft": 32768,
 		"iS": 4767,
 		"oA": 0,
 		"oAP": "\/build\/images\/tg_filt.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -4031,7 +4048,7 @@
 		"iS": 95009,
 		"oA": 0,
 		"oAP": "\/build\/images\/tov1.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -4042,7 +4059,7 @@
 		"iS": 3153,
 		"oA": 0,
 		"oAP": "\/build\/images\/tov2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -4053,7 +4070,7 @@
 		"iS": 12490,
 		"oA": 0,
 		"oAP": "\/build\/images\/u1.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -4064,7 +4081,7 @@
 		"iS": 13320,
 		"oA": 0,
 		"oAP": "\/build\/images\/u2.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -4075,7 +4092,7 @@
 		"iS": 13617,
 		"oA": 0,
 		"oAP": "\/build\/images\/u3.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -4086,7 +4103,7 @@
 		"iS": 13616,
 		"oA": 0,
 		"oAP": "\/build\/images\/u4.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -4097,7 +4114,7 @@
 		"iS": 6729,
 		"oA": 0,
 		"oAP": "\/build\/images\/u5.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -4108,7 +4125,7 @@
 		"iS": 5551,
 		"oA": 0,
 		"oAP": "\/build\/images\/voyti.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -4119,7 +4136,7 @@
 		"iS": 21813,
 		"oA": 0,
 		"oAP": "\/build\/images\/zanyatie.png",
-		"oF": 3,
+		"oF": 2,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,

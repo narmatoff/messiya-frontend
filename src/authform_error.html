@@ -23,7 +23,7 @@
             </a>
             <div id="menu_tg"></div>
             <ul class="menu_top">
-                <li>
+                <li class="active">
                     <a href="#">О школе</a>
                 </li>
                 <li class="parent">
@@ -43,10 +43,10 @@
                         </li>
                     </ul>
                 </li>
-                <li class="">
+                <li class="disabled">
                     <a href="#">Проекты</a>
                 </li>
-                <li class="parent">
+                <li class="parent disabled">
                     <a href="#">Обучение</a>
                     <ul>
                         <li>
@@ -66,25 +66,11 @@
                 <li>
                     <a href="#">Форум</a>
                 </li>
-                <li class="">
+                <li class="disabled">
                     <a href="#">Библиотека</a>
                 </li>
             </ul>
-            <a href="#" class="bl_login">
-                <img src="images/login.png" alt="" />
-                Никнейм
-                <span></span>
-            </a>
-            <div class="login_vipad">
-                <a href="#">Избранное <span></span></a>
-                <hr />
-                <a href="#">Мои курсы</a>
-                <a href="#">Уведомления</a>
-                <a href="#">Покупки</a>
-                <hr />
-                <a href="#" class="logout">Выйти</a>
-            </div>
-            <a href="#" class="bl_mail"><span>2</span></a>
+            <a href="#" class="lk_vhod"></a>
             <div class="bl_search">
                 <div class="btn"></div>
                 <form>
@@ -101,7 +87,13 @@
             <img src="images/logooo.png" alt="" class="logo_big" />
             <div class="text1">МЕSS&nbsp; и&nbsp; Я</div>
             <div class="text2">рождение&nbsp; Разума&nbsp; <span>в&nbsp; хаосе</span>&nbsp; творения</div>
-            <div class="bl_btns"></div>
+            <div class="bl_btns">
+                <a href="#" class="btn1">
+                    <img src="images/svg/icon3.svg" alt="" />
+                    Войти
+                </a>
+                <a href="#" class="btn2">Зарегистрироваться</a>
+            </div>
             <div class="text3">147 участников уже зарегистрированы</div>
             <div class="text4"><span class="krug"></span> 23 участника <span>online</span></div>
             <div class="clear"></div>
@@ -114,6 +106,10 @@
         <div class="podzag">Здесь небольшой текст о том, что если у Вас<br />уже есть аккаунт, то нужно ввести данные</div>
         <form>
             <label>Никнейм</label>
+            <div class="ui_error">
+                <input type="text" value="" placeholder="Введите свой никнейм" name="" class="ui_input" />
+                <p>Ошибка</p>
+            </div>
             <input type="text" value="" placeholder="Введите свой никнейм" name="" />
             <label>Пароль</label>
             <input type="password" value="" placeholder="Введите свой пароль" name="" />
