@@ -107,6 +107,29 @@
     .block_obsu .col2 .tema1 .spis_pho img {
         max-height: 216px;
     }
+    .block_obuch .bl_biblio .tema1 .col2 {
+        width: 540px;
+    }
+    .block_obuch .bl_biblio .tema1 .comments {
+        margin: 40px 0 0;
+    }
+    .block_obsu.forum .col2 {
+        width: 875px;
+        margin: 0;
+    }
+    .block_obsu .col2 .forum_obsu .comment .bl_txt {
+        margin: 0;
+        width: 785px;
+    }
+    .block_obsu .col2 .forum_obsu .comment.comm_otvet {
+        margin-left: 120px;
+    }
+    .block_obsu .col2 .forum_obsu .comment.comm_otvet .bl_txt {
+        width: 705px;
+    }
+    .forum_obsu .add_com textarea {
+        width: 799px;
+    }
 }
 
 @media all and (max-width: 1230px) {
@@ -532,7 +555,144 @@
         width: 392px;
     }
     .block_vnutr {
-        background-size: cover!important;
+        /* background-size: cover!important; */
+    }
+    .block_obuch .col_l .ui_btn2 {
+        float: right;
+        margin: 0;
+    }
+    .block_obuch .bl_biblio .tema1 .img_l {
+        width: 350px;
+    }
+    .block_obuch .bl_biblio .tema1 .col2 {
+        width: 350px;
+    }
+    .block_obuch .bl_biblio .tema1 .comments .comment .bl_txt {
+        width: 643px;
+    }
+    .block_obsu.forum .col2 {
+        width: 464px;
+    }
+    .block_obsu.forum .col2 .bl_tema .oglavl .cha1 {
+        width: 200px;
+    }
+    .block_obsu.forum .col2 .bl_tema .oglavl .cha2 {
+        width: 163px;
+    }
+    .block_obsu.forum .col2 .bl_tema .raskr .polosa .po1 {
+        width: 250px;
+        margin: 5px 0 0;
+    }
+    .block_obsu.forum .col2 .bl_tema .raskr .polosa {
+        padding: 0 0 5px;
+    }
+    .block_obsu.forum .col2 .bl_tema .raskr .polosa .po2 {
+        width: 200px;
+        float: right;
+        margin: 5px 0 0;
+    }
+    .block_obsu.forum .col2 .bl_tema .oglavl .cha1 .zg {
+        line-height: 32px;
+    }
+    .block_obsu .col2 .forum_obsu .comment .bl_txt {
+        width: 395px;
+    }
+    .block_obsu .col2 .forum_obsu .comment.comm_otvet .bl_txt {
+        width: 360px;
+        margin-right: 0;
+    }
+    .block_obsu .col2 .add_com textarea {
+        width: 388px;
+    }
+    .block_obsu.forum.lichniy .col2 {
+        width: 537px;
+    }
+    .block_obsu.lichniy .col2 .add_com textarea {
+    width: 461px;
+}
+    .block_obsu.lichniy .col2 .forum_obsu .comment .bl_txt {
+        width: 459px;
+    }
+    .block_obsu.lichniy .bl_ekzameny .ekzamen1 .obol .pol1 {
+        width: 450px;
+        margin: 40px 0 0 52px;
+    }
+    .block_obsu.lichniy .bl_ekzameny .ekzamen1 .obol .pol2 {
+        width: 450px;
+        margin: 0px 0 0 52px;
+    }
+    .block_obsu.lichniy .bl_ekzameny .ekzamen1 .bl_comen .text {
+        width: 457px;
+    }
+    .block_obsu.lichniy .bl_izbrann .proekt,
+    .block_obsu.lichniy .bl_izbrann .kurs {
+        width: 100%;
+        margin: 0 0 22px!important;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie .izbr {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie {
+        background-size: cover;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie .pol2 {
+        padding: 0 43px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 20px 0 0;
+    }
+    .block_obsu.lichniy .bl_profil .pp1 {
+        width: 100%;
+    }
+    .block_obsu.lichniy .bl_profil .cha1 {
+        width: 100%;
+    }
+    .block_obsu.lichniy .bl_profil .cha2 {
+        width: 100%;
+    }
+    .block_obsu .col2 .otchet1 .comment .bl_txt {
+        width: 460px;
+    }
+    .block_obsu.lichniy .bl_podpiski .spis_check .check {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+    .block_obsu.lichniy .bl_pokupki .pokupka .pol2 {
+        margin: 5px 0 0 20px;
+    }
+    .block_obsu.lichniy .bl_pokupki .pokupka .pol3 {
+        margin: 5px 0 0 20px;
+        text-align: left;
+    }
+    .block_obsu.lichniy .bl_soobscheniya .spis_soob .soob .pol1 {
+        width: 444px;
+    }
+    .block_obsu.extra.volsheb .col1 {
+        width: 155px;
+    }
+    .block_obsu.volsheb .col1 .summa1 .obsch {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .block_obsu.volsheb .col1 .summa1 .obol .sum {
+        white-space: normal;
+    }
+    .block_obsu.volsheb .col1 .summa1 .obol .sum b {
+        display: block;
+    }
+    .block_obsu.volsheb .col2 {
+        width: 531px;
+    }
+    .block_obsu.extra.volsheb .col2 .comment .bl_txt {
+        width: 460px;
+    }
+    .block_obsu .col2 .add_com textarea {
+        width: 455px;
+    }
+    .block_obuch.magaz.biblio .add_com textarea {
+        width: 643px;
     }
 }
 
@@ -1091,6 +1251,188 @@
         line-height: 30px;
     }
     .block_obsu .col2 .tema1 .data {
+        font-size: 14px;
+    }
+    .block_obuch .bl_biblio .tema1 .img_l {
+        width: 100%;
+    }
+    .block_obuch .bl_biblio .tema1 .col2 {
+        width: 100%;
+        margin: 28px 0 0;
+    }
+    .block_obuch .bl_biblio .tema1 .comments .comment .bl_txt {
+        width: 220px;
+    }
+    .block_obuch.magaz.biblio .add_com textarea {
+        width: 220px;
+    }
+    .block_obuch.magaz.biblio .add_com p {
+        margin: 0 0 0 71px;
+    }
+    .block_obsu.forum .col2 {
+        width: 100%;
+    }
+    .block_obsu.forum .col2 .bl_tema .oglavl .cha1 {
+        margin: 10px 0 0 15px;
+        width: 262px;
+    }
+    .block_obsu.forum .col2 .bl_tema .oglavl .cha2 {
+        margin: 10px 0 0 15px;
+        width: 262px;
+    }
+    .block_obsu.forum .col2 .bl_tema .raskr .polosa .po1 {
+        width: 100%;
+    }
+    .block_obsu.forum .col2 .bl_tema .raskr .polosa .po2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .block_obsu .col2 .forum_obsu .comment .bl_txt {
+        width: 230px;
+    }
+    .block_obsu .col2 .forum_obsu .comment.comm_otvet {
+        margin-left: 60px;
+    }
+    .block_obsu .col2 .forum_obsu .comment.comm_otvet .bl_txt {
+        width: 182px;
+        padding-left: 20px;
+    }
+    .block_obsu.lichniy .col1 {
+        width: 100%;
+        text-align: center;
+    }
+    .block_obsu.lichniy .col1 .bl_menu_lk .bl_img {
+        margin: 0 auto;
+    }
+    .block_obsu.lichniy .col2,
+    .block_obsu.forum.lichniy .col2 {
+        width: 100%;
+        margin: 40px 0 0;
+    }
+    .block_obsu.forum .col2 .bl_forum .back_for {
+        display: block;
+        margin:0 auto;
+        width: 170px;
+    }
+    .block_obsu.forum.lichniy .col2 .bl_forum .search {
+        margin: 15px 0 0;
+        width: 100%;
+    }
+    .block_obsu.lichniy .col2 .forum_obsu .comment .bl_txt {
+        width: 230px;
+    }
+    .block_obsu.lichniy .col2 .add_com textarea {
+        width: 230px;
+    }
+    .block_obsu.lichniy .bl_ekzameny .ekzamen1 .obol .pol1 {
+        margin: 20px 0 0 20px;
+        width: 250px;
+    }
+    .block_obsu.lichniy .bl_ekzameny .ekzamen1 .obol .pol2 {
+        margin: 0px 0 0 20px;
+        width: 250px;
+    }
+    .block_obsu.lichniy .bl_ekzameny .ekzamen1 .obol .pol2 .btn {
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+    .block_obsu.lichniy .bl_ekzameny .ekzamen1 .bl_comen .text {
+        width: 220px;
+    }
+    .block_obsu.lichniy .bl_izbrann .proekt .bl_obol {
+        top: 20px;
+        left: 20px;
+        right: 20px;
+    }
+    .block_obsu.lichniy .bl_izbrann .proekt p {
+        line-height: 24px;
+    }
+    .block_obsu.lichniy .bl_izbrann .kurs .pol1 {
+        margin: 20px 20px 0 20px;
+    }
+    .block_obsu.lichniy .bl_izbrann .kurs .pol1 .zag {
+        line-height: 27px;
+        font-size: 25px;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya {
+        padding: 0;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie {
+        margin: 0 0 22px;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie .cha1 {
+        margin: 20px 0 0 20px;
+        width: 250px;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie .cha2 {
+        margin: 10px 0 0 20px;
+        width: 250px;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie .open {
+        top: auto;
+        bottom: 0px;
+        right: 0;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie .video {
+        margin: 25px 0 0 20px;
+        width: 250px;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie .pol2 {
+        padding: 0 20px;
+    }
+    .block_obsu.lichniy .bl_izbrann .zanyatiya .zanyatie .pol2 p {
+        line-height: 22px;
+    }
+    .block_obsu .col2 .otchet1 .comment .bl_txt {
+        width: 230px;
+    }
+    .block_obsu .col2 .otchet1 .all_comm {
+        font-size: 14px;
+    }
+    .block_obsu.lichniy .bl_podpiski .spis_check .check .checkbox + label {
+        padding: 0 0 0 75px;
+        font-size: 14px;
+    }
+    .block_obsu.lichniy .bl_podpiski p a {
+        margin: 10px 0 0;
+    }
+    .block_obsu.lichniy .bl_pokupki .pokupka .pol2 {
+        width: 250px;
+    }
+    .block_obsu.lichniy .bl_pokupki .pokupka .pol3 {
+        width: 250px;
+    }
+    .block_obsu.lichniy .bl_pokupki .pokupka_add {
+        font-size: 24px;
+    }
+    .block_obsu.lichniy .bl_izbrann.spis_krs .add_kurs {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .block_obsu.lichniy .bl_soobscheniya .spis_soob .soob .bl_img {
+        margin: 5px 0 0 5px;
+    }
+    .block_obsu.lichniy .bl_soobscheniya .spis_soob .soob .pol1 {
+        width: 207px;
+    }
+    .block_obsu.lichniy .bl_soobscheniya .spis_soob .soob .data {
+        top: 5px;
+        right: 5px;
+    }
+    .block_obsu.extra.volsheb .col1 {
+        width: 100%;
+        text-align: center;
+    }
+    .block_obsu.volsheb .col1 .summa1 .obsch {
+        width: 100%;
+    }
+    .block_obsu.volsheb .col1 .summa1 .obol {
+    }
+    .block_obsu.extra.volsheb .col2 .comment .bl_txt {
+        width: 230px;
+    }
+    .block_obsu .col2 .tema1 .all_comm {
         font-size: 14px;
     }
 }

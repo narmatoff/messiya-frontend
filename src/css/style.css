@@ -3624,7 +3624,7 @@ a {
     left: 0;
     right: 0;
     height: 120px;
-    background: linear-gradient(0deg, #dadae2 1%, rgb(226 226 233 / .2) 100%);
+    background: linear-gradient(0deg, #dadae2 1%, rgb(226, 226, 233 / .2) 100%);
 }
 .block_obsu.volsheb .col1 .summa1 .obol.opened {
     height: auto;
@@ -4667,7 +4667,7 @@ a {
     background: #c2c5cf;
     font-weight: 500;
     line-height: 31px;
-    margin: 0 9px 0 0;
+    margin: 0 9px 9px 0;
     padding: 0 20px;
     font-size: 14px;
     border-radius: 16px;
@@ -4702,7 +4702,7 @@ a {
     background: #f2f4f8;
     font-weight: 500;
     color: #86a1b8;
-    margin: 0 9px 0 0;
+    margin: 0 9px 9px 0;
     line-height: 22px;
     padding: 0 13px;
     border-radius: 12px;
@@ -4718,7 +4718,8 @@ a {
 .block_obsu.lichniy .bl_otchety .otchet1 .spis_pho img {
     display: inline-block;
     vertical-align: top;
-    margin: 0 7px 0 0;
+    margin: 0 7px 7px 0;
+    max-width: 100%;
 }
 .block_obsu.lichniy .bl_otchety .otchet1 .comm_op {
     text-decoration: none;
